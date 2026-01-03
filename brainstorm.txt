@@ -1,0 +1,71 @@
+=== Requirements ===
+
+Altimeter must be small, but has to be capable of being mounted to something
+with M3 screws. It will have two deployment pyro channels capable of delivering
+at least 1A each at 3V3 or more.
+
+Bluetooth will be the primary interface used for configuration of the device
+(deployment settings, etc). It will also be able to report:
+
+- continuity status of the pyro channels
+- battery voltage
+- flash storage available
+- last recorded apogee (for post-flight quick-checking)
+
+The device will have a testing mode that will allow barometric data to be sent
+to the altimeter over BLE that simulates a real flight. During the simulation,
+the pyro channels will be fired according to the user's configuration.
+
+The device will have several options for triggering deployment events:
+- Height offset from launch height (i.e. 800m)
+- Time since lift-off (in seconds, i.e. 10s)
+- At apogee
+- Percentage of apogee (i.e. deploy main halfway down -> 50%)
+
+It will have 1MB of flash storage for time-stamped altitude logs and deployment
+events. The logs will be on a power-fail safe file system. Logs will only be
+permanently written when lift-off is detected via a large increase in altitude
+(>20m). All logs will be accessible via USB-C connection to be downloaded to a
+host device.
+
+Continuity channels will have LED indicators to show continuity. This can be
+scrapped in favour of BLE only if the current consumption will be too high.
+
+A small but loud piezo buzzer will be used to indicate arming codes. There must
+at least be a code for nominal operation and off-nominal operation. The buzzer
+must be PWM activated to allow for different frequency sounds. The buzzer must
+be audible through a rocket body tube.
+
+The device will use solely a barometric altimeter. It will be resistant to
+pressure spikes when Mach is broken by refusing to deploy the charges when
+velocity (change in altitude) increases very quickly (apogee is characterized by
+the rocket velocity slowing to zero). It will also be resistant to pressure
+spikes caused by improper isolation of the altimeter from deployment charges by
+adding a small cool-down window once it fires a pyro channel.
+
+The device should support JST connected LiPo batteries in the standard pin
+orientation, and it must have reverse-polarity protection. The device should
+allow a physical switch connection for arming.
+
+=== Choices ===
+
+I want to use the NRF52840 since it has an FPU, BLE support, NuttX support, is
+cheap and low-power. It will be capable of interfacing with all of the
+peripherals I plan to have.
+
+3V3 buck regulator on board. The chip itself can run on less, which should be
+investigated, but I'm not sure how easy it will be to fire pyro channels with
+1V7 signals.
+
+1MB SPI flash package on board using littlefs. Choice shouldn't really matter so
+long as it's small.
+
+USB-C interface.
+
+BLE antenna will be a small ceramic patch. Range only needs to be sufficient to
+be a safe distance when firing deployment charges during flight simulation.
+
+The device should only need to have firmware flashed ONCE (or when patches are
+necessary). Configuration is all loaded separately so users don't need to
+re-program outside of firmware updating. OTA firmware updates would be cool but
+not necessary.
