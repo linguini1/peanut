@@ -5934,7 +5934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 161.29 184.15 0)
 			(effects
 				(font
@@ -5986,7 +5986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -6040,7 +6040,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BSS138IXTSA1"
 			(at 262.89 133.35 0)
 			(effects
 				(font
@@ -6211,7 +6211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " HSMC-C170-T0000"
+		(property "MPN" "HSMC-C170-T0000"
 			(at 161.29 176.53 90)
 			(effects
 				(font
@@ -7260,7 +7260,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " 9HT12-32.768KDZF-T "
+		(property "MPN" "9HT12-32.768KDZF-T "
 			(at 26.67 111.76 0)
 			(effects
 				(font
@@ -7337,7 +7337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "USB4215-03-A"
 			(at 30.48 162.56 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R61A104KA01J"
 			(at 124.46 173.99 0)
 			(effects
 				(font
@@ -7983,7 +7983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " HSMG-C170"
+		(property "MPN" "HSMG-C170"
 			(at 144.78 176.53 90)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 25.4 74.93 0)
 			(effects
 				(font
@@ -8364,7 +8364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 64.77 185.42 90)
 			(effects
 				(font
@@ -8440,7 +8440,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-2AKD270X"
 			(at 64.77 180.34 90)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MCS04020C5101FE000"
 			(at 58.42 154.94 90)
 			(effects
 				(font
@@ -8807,7 +8807,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -9097,7 +9097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 144.78 184.15 0)
 			(effects
 				(font
@@ -9426,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 64.77 175.26 90)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-2AKD270X"
 			(at 64.77 177.8 90)
 			(effects
 				(font
@@ -9512,7 +9512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
 			(at 107.95 177.8 0)
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MS561101BA03-50"
 			(at 107.95 177.8 0)
 			(effects
 				(font
@@ -9608,7 +9608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
 			(at 147.828 83.82 0)
 			(effects
 				(font
@@ -9635,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ESP32-C3FH4 "
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -9846,7 +9846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 57.15 184.15 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "USBLC6-2SC6"
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -9965,7 +9965,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MCS04020C5101FE000"
 			(at 52.07 152.4 90)
 			(effects
 				(font
@@ -10044,7 +10044,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 255.27 137.16 0)
 			(effects
 				(font

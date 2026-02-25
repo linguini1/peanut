@@ -2898,7 +2898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 88.9 0)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "06036C105MAT2A"
 			(at 110.49 85.09 0)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 80.01 134.62 0)
 			(effects
 				(font
@@ -3395,7 +3395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
 			(at 139.7 98.552 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TPS2116DRLR"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -3921,7 +3921,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LPO3310-222MLC"
 			(at 77.47 68.58 90)
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.0352 76.2 0)
 			(effects
 				(font
@@ -4139,7 +4139,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CGA3E1X5R0J475K080AC"
 			(at 52.07 72.39 0)
 			(effects
 				(font
@@ -4282,7 +4282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 74.93 119.38 90)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.0752 78.74 0)
 			(effects
 				(font
@@ -4426,7 +4426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "06036C105MAT2A"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -4869,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " SI2329DS-T1-GE3"
+		(property "MPN" "SI2329DS-T1-GE3"
 			(at 191.77 71.12 90)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 76.2 0)
 			(effects
 				(font
@@ -5017,7 +5017,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1608X5R0J106K080AB"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -5175,7 +5175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MR04X3302FTL"
 			(at 80.01 124.46 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LM3671MF-3.3/NOPB"
 			(at 66.04 71.12 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.6352 80.01 0)
 			(effects
 				(font
@@ -6047,7 +6047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "06036C105MAT2A"
 			(at 153.67 76.2 0)
 			(effects
 				(font
@@ -6135,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " HSMG-C170"
+		(property "MPN" "HSMG-C170"
 			(at 109.22 121.92 90)
 			(effects
 				(font

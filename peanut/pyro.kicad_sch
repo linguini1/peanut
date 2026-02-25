@@ -2312,7 +2312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 186.69 107.95 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" ""
 			(at 254 110.49 0)
 			(effects
 				(font
@@ -2536,7 +2536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MR04X3302FTL"
 			(at 88.9 147.32 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " 599-1140-147F"
+		(property "MPN" "599-1140-147F"
 			(at 85.09 96.52 90)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -3011,7 +3011,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 88.9 157.48 0)
 			(effects
 				(font
@@ -3090,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 52.07 157.48 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " 599-1140-147F"
+		(property "MPN" "599-1140-147F"
 			(at 50.8 96.52 90)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 83.82 142.24 90)
 			(effects
 				(font
@@ -3847,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -4201,7 +4201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SFR01MZPJ103"
 			(at 46.99 142.24 90)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MR04X3302FTL"
 			(at 52.07 147.32 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "560112110231"
 			(at 50.8 104.14 0)
 			(effects
 				(font
