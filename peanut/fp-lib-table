@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/nRF52840-QFAA-F-R7/KiCad.pretty")(options "")(descr ""))
+  (lib (name "TSM200N03DPQ33_RGG")(type "KiCad")(uri "${KIPRJMOD}/../LIB_TSM200N03DPQ33_RGG/KiCad")(options "")(descr "Dual channel NMOS"))
 )

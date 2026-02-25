@@ -6175,7 +6175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 161.29 176.53 0)
 			(effects
 				(font
@@ -6211,7 +6211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " HSMC-C170-T0000"
 			(at 161.29 176.53 90)
 			(effects
 				(font
@@ -7947,7 +7947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 144.78 176.53 0)
 			(effects
 				(font
@@ -7983,7 +7983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " HSMG-C170"
 			(at 144.78 176.53 90)
 			(effects
 				(font

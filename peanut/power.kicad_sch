@@ -4815,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -4869,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " SI2329DS-T1-GE3"
 			(at 191.77 71.12 90)
 			(effects
 				(font
@@ -6099,7 +6099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -6135,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " HSMG-C170"
 			(at 109.22 121.92 90)
 			(effects
 				(font

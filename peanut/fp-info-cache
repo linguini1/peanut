@@ -1,4 +1,4 @@
-27097341535651157
+27097346184791330
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74682,13 +74682,6 @@ threaded screw
 0
 4
 1
-NRF52840
-QFN40P600X600X95-49N-D
-QFN48 6 x 6 mm
-Integrated Circuit
-0
-49
-49
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -100869,6 +100862,13 @@ Logo WEEE
 0
 0
 0
+TSM200N03DPQ33_RGG
+TSM200N03DPQ33RGG
+TSM200N03DPQ33 RGG-3
+MOSFET (N-Channel)
+0
+10
+10
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

@@ -2588,7 +2588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TSM200N03DPQ33_RGG:TSM200N03DPQ33RGG"
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.taiwansemi.com/assets/datasheet/pdf.php?pn=TSM200N03DPQ33"
+		(property "Datasheet" "~"
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " 599-1140-147F"
 			(at 85.09 96.52 90)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" " 599-1140-147F"
 			(at 50.8 96.52 90)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TSM200N03DPQ33_RGG:TSM200N03DPQ33RGG"
 			(at 158.75 104.14 0)
 			(effects
 				(font
@@ -3760,28 +3760,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "0fdaaff6-d9e2-4109-8bb0-8ff580218f59")
+			(uuid "0fdaaff6-d9e2-4109-8bb0-8ff580218f5a")
 		)
 		(pin "6"
-			(uuid "3de11c9f-1436-4dd0-8c7e-cc9e0d7bb8dd")
+			(uuid "3de11c9f-1436-4dd0-8c7e-cc9e0d7bb8de")
 		)
 		(pin "3"
-			(uuid "d094c48a-5d56-47c0-9a56-51fa4b83d690")
+			(uuid "d094c48a-5d56-47c0-9a56-51fa4b83d691")
 		)
 		(pin "7"
-			(uuid "3aa50c8c-6f86-488e-8d38-959549f94ca9")
+			(uuid "3aa50c8c-6f86-488e-8d38-959549f94caa")
 		)
 		(pin "4"
-			(uuid "5a6cc9c7-0f7b-460c-ba54-3f38f3e800d6")
+			(uuid "5a6cc9c7-0f7b-460c-ba54-3f38f3e800d7")
 		)
 		(pin "8"
-			(uuid "75a53b59-40df-4d27-8ea7-98cf23e0012f")
+			(uuid "75a53b59-40df-4d27-8ea7-98cf23e00130")
 		)
 		(pin "2"
-			(uuid "05ebb82a-2c8e-40d1-95af-422d541e2e2d")
+			(uuid "05ebb82a-2c8e-40d1-95af-422d541e2e2e")
 		)
 		(pin "1"
-			(uuid "9ab47600-a503-49fe-9b90-ad48e494b17f")
+			(uuid "9ab47600-a503-49fe-9b90-ad48e494b180")
 		)
 		(instances
 			(project ""

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSM200N03DPQ33_RGG
+D MOSFET MOSFET, Dual, N-Ch Trench, 30V, 20A
+K
+F https://www.taiwansemi.com/products/datasheet/TSM200N03D_B1710.pdf
+$ENDCMP
+#
+#End Doc Library
