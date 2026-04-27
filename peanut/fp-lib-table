@@ -1,4 +1,7 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "TSM200N03DPQ33_RGG")(type "KiCad")(uri "${KIPRJMOD}/../LIB_TSM200N03DPQ33_RGG/KiCad")(options "")(descr "Dual channel NMOS"))
+	(version 7)
+	(lib (name "TSM200N03DPQ33_RGG") (type "KiCad") (uri "${KIPRJMOD}/../LIB_TSM200N03DPQ33_RGG/KiCad") (options "") (descr "Dual channel NMOS"))
+	(lib (name "LPO3310-222MLC") (type "KiCad") (uri "${KIPRJMOD}/../LIB_LPO3310-222MLC/KiCad") (options "") (descr "Inductor"))
+	(lib (name "CMI-0955-03TH") (type "KiCad") (uri "${KIPRJMOD}/../LIB_CMI-0955-03TH/KiCad") (options "") (descr ""))
+	(lib (name "ACAG0201-2450-T") (type "KiCad") (uri "${KIPRJMOD}/../LIB_ACAG0201-2450-T/KiCad") (options "") (descr ""))
 )
