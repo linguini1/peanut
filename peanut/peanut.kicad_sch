@@ -1183,195 +1183,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -4272,7 +4083,7 @@
 	)
 	(rectangle
 		(start 15.24 101.6)
-		(end 71.12 129.54)
+		(end 52.07 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -4419,6 +4230,16 @@
 		)
 		(uuid "1081babc-89d4-48c1-988a-4eedea39bd67")
 	)
+	(text "System Clock"
+		(exclude_from_sim no)
+		(at 34.544 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fad8d7b-6758-4713-b429-1d2f641bfb5e")
+	)
 	(text "1.4mA peak draw"
 		(exclude_from_sim no)
 		(at 86.106 191.77 0)
@@ -4504,16 +4325,6 @@
 		)
 		(uuid "b4e3b101-b0db-4392-b2ff-7ad39e92169f")
 	)
-	(text "C_L = 12.5p"
-		(exclude_from_sim no)
-		(at 38.354 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bab308b7-0527-4674-9504-be991258c669")
-	)
 	(text "Boot \"button\""
 		(exclude_from_sim no)
 		(at 50.546 61.976 0)
@@ -4534,20 +4345,9 @@
 		)
 		(uuid "d0e6268e-826b-42e1-8fea-915d14430bbd")
 	)
-	(text "Clocks"
-		(exclude_from_sim no)
-		(at 40.132 99.568 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d74f38c6-364d-4c24-965e-d85b444e72c5")
-	)
 	(text "C_S = 4n"
 		(exclude_from_sim no)
-		(at 65.532 128.016 0)
+		(at 42.926 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4578,7 +4378,7 @@
 	)
 	(text "C_L = 8p"
 		(exclude_from_sim no)
-		(at 64.262 106.934 0)
+		(at 42.672 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4683,34 +4483,22 @@
 		(uuid "57583b71-c5cc-4a66-888f-e9e24195f688")
 	)
 	(junction
-		(at 60.96 111.76)
+		(at 39.37 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b1e7ab2-d725-4683-9b21-6cc373128818")
 	)
 	(junction
-		(at 54.61 119.38)
+		(at 33.02 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b92305c-e066-4f06-bde8-657944fbb9ef")
-	)
-	(junction
-		(at 30.48 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65be31cb-390d-4296-8921-9272a68cb8ab")
 	)
 	(junction
 		(at 250.19 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd76157-075b-4dda-9ac6-2bf582f256b5")
-	)
-	(junction
-		(at 22.86 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "896ac173-6d56-4a5a-a768-89ce989043bb")
 	)
 	(junction
 		(at 107.95 167.64)
@@ -4761,7 +4549,7 @@
 		(uuid "d068d4cd-bdbc-4f28-80a6-9296d4756418")
 	)
 	(junction
-		(at 48.26 111.76)
+		(at 26.67 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9846a7d-88ce-448a-8465-dda5dac475c5")
@@ -4808,12 +4596,6 @@
 		(color 0 0 0 0)
 		(uuid "fb3d3252-feae-41ad-b460-4f0d3c220516")
 	)
-	(junction
-		(at 26.67 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb561336-1f2e-4850-9751-9d3a80657b4d")
-	)
 	(no_connect
 		(at 167.64 99.06)
 		(uuid "16a0f472-13ca-4e54-97fd-4e0c2383b7a4")
@@ -4821,6 +4603,10 @@
 	(no_connect
 		(at 45.72 175.26)
 		(uuid "23f0bdec-5f68-4a35-8757-fde4cbc9115f")
+	)
+	(no_connect
+		(at 121.92 104.14)
+		(uuid "36a8f63a-40ff-43a6-b931-5e072dd878a3")
 	)
 	(no_connect
 		(at 45.72 177.8)
@@ -4833,6 +4619,10 @@
 	(no_connect
 		(at 167.64 104.14)
 		(uuid "4d1e9e92-4b12-42a6-ace7-368e2706aae1")
+	)
+	(no_connect
+		(at 121.92 101.6)
+		(uuid "8a58fb58-4574-4fc9-8774-ee13f45d4452")
 	)
 	(no_connect
 		(at 167.64 106.68)
@@ -4859,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "00e98ad3-e1e6-4b24-8fe6-2bd0bede7323")
-	)
-	(wire
-		(pts
-			(xy 26.67 119.38) (xy 30.48 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01104756-d20e-4d5d-9edf-fcb42eaf226e")
 	)
 	(wire
 		(pts
@@ -4929,16 +4709,6 @@
 			(type default)
 		)
 		(uuid "0d372fbd-eede-4074-8624-b04627187d09")
-	)
-	(wire
-		(pts
-			(xy 22.86 119.38) (xy 26.67 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108809cd-b238-453e-81b9-853ada1ba67b")
 	)
 	(wire
 		(pts
@@ -5072,16 +4842,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 121.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431b97bc-31cc-4a49-bfa9-ab63b2e1d608")
-	)
-	(wire
-		(pts
 			(xy 120.65 71.12) (xy 121.92 71.12)
 		)
 		(stroke
@@ -5119,16 +4879,6 @@
 			(type default)
 		)
 		(uuid "493c66e0-0a71-4389-bc97-b22c4ce22bcf")
-	)
-	(wire
-		(pts
-			(xy 34.29 111.76) (xy 30.48 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edb8605-b8e0-4e02-9596-2b4455278089")
 	)
 	(wire
 		(pts
@@ -5172,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 116.84) (xy 54.61 119.38)
+			(xy 33.02 116.84) (xy 33.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 111.76) (xy 48.26 111.76)
+			(xy 24.13 111.76) (xy 26.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5242,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 50.8 111.76)
+			(xy 26.67 111.76) (xy 29.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 58.42 111.76)
+			(xy 39.37 111.76) (xy 36.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5532,16 +5282,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 121.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84a5f13-3389-43af-9d9b-3e8d33c8a89a")
-	)
-	(wire
-		(pts
 			(xy 120.65 36.83) (xy 125.73 36.83)
 		)
 		(stroke
@@ -5559,16 +5299,6 @@
 			(type default)
 		)
 		(uuid "b3a77bc8-366c-4567-b674-4b66de9c3fae")
-	)
-	(wire
-		(pts
-			(xy 19.05 111.76) (xy 22.86 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47ec62f-ddbf-429c-b076-48a386e908ac")
 	)
 	(wire
 		(pts
@@ -5672,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 54.61 119.38)
+			(xy 26.67 119.38) (xy 33.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5732,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 60.96 119.38)
+			(xy 33.02 119.38) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5752,7 +5482,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 60.96 111.76)
+			(xy 41.91 111.76) (xy 39.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5930,18 +5660,8 @@
 		)
 		(uuid "3d4780f4-e979-4034-a650-307a833a0697")
 	)
-	(label "XL1"
-		(at 19.05 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3dea12a8-c820-4378-9b59-70333c99655c")
-	)
 	(label "XC2"
-		(at 45.72 111.76 0)
+		(at 24.13 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6030,16 +5750,6 @@
 		)
 		(uuid "65a1620d-e44b-42d3-8fed-04a1f4006328")
 	)
-	(label "XL2"
-		(at 34.29 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66c4ac8a-941e-4fa9-8b68-3c0a60b16c4a")
-	)
 	(label "BOOT"
 		(at 40.64 78.74 0)
 		(effects
@@ -6090,18 +5800,8 @@
 		)
 		(uuid "9869239e-8ee2-4025-b8e8-e9c5ee0769c4")
 	)
-	(label "XL2"
-		(at 118.11 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9df45108-5d85-4e48-b66a-cb8476f940fe")
-	)
 	(label "XC1"
-		(at 63.5 111.76 180)
+		(at 41.91 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6199,16 +5899,6 @@
 			(justify left bottom)
 		)
 		(uuid "e467cd47-c776-44b5-8a37-b69b488df469")
-	)
-	(label "XL1"
-		(at 118.11 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9adc307-864a-4c15-9934-eeb5216cebe1")
 	)
 	(label "BOOT"
 		(at 115.57 81.28 0)
@@ -6808,7 +6498,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 54.61 111.76 0)
+		(at 33.02 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6819,7 +6509,7 @@
 		(fields_autoplaced yes)
 		(uuid "14689a63-a91f-4c75-98f2-fdee3bb78773")
 		(property "Reference" "Y2"
-			(at 54.61 102.87 0)
+			(at 33.02 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6829,7 +6519,7 @@
 			)
 		)
 		(property "Value" "40MHz"
-			(at 54.61 105.41 0)
+			(at 33.02 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6839,7 +6529,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-			(at 54.61 111.76 0)
+			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +6540,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830108213209.pdf"
-			(at 54.61 111.76 0)
+			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +6551,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 54.61 111.76 0)
+			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +6562,7 @@
 			)
 		)
 		(property "MPN" "830108213209"
-			(at 54.61 111.76 0)
+			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,99 +7097,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 30.48 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2edbfdbd-b870-4fff-89dd-d52353d5a61c")
-		(property "Reference" "C2"
-			(at 34.29 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18p"
-			(at 34.29 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 31.4452 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/3/GJM0225C1C180JB01_01A.pdf"
-			(at 30.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 30.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GJM0225C1C180JB01L"
-			(at 30.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9220fea6-3b26-4807-9cdd-6a6ddc09d723")
-		)
-		(pin "2"
-			(uuid "4d4a7b86-d400-48a8-a39a-17e5f3f6272e")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8495,97 +8092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 26.67 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "612acd87-77cc-4796-be6f-af0a2a6edc76")
-		(property "Reference" "Y1"
-			(at 26.67 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 26.67 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
-			(at 26.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/827/1/9ht12.pdf"
-			(at 26.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 26.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "9HT12-32.768KDZF-T "
-			(at 26.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5a84d297-6166-4887-95ad-9785e919e53a")
-		)
-		(pin "1"
-			(uuid "5b3b9600-9f1b-44de-9fcb-30e94c082158")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 30.48 162.56 0)
 		(unit 1)
@@ -9251,7 +8757,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 115.57 0)
+		(at 39.37 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9262,7 +8768,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b3ab3a3-a6db-45e4-afdc-5cad7b31f9a4")
 		(property "Reference" "C4"
-			(at 64.77 114.2999 0)
+			(at 43.18 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9273,7 +8779,7 @@
 			)
 		)
 		(property "Value" "8p"
-			(at 64.77 116.8399 0)
+			(at 43.18 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9284,7 +8790,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 61.9252 119.38 0)
+			(at 40.3352 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +8801,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/1/GRM1555C1E8R0DA01-01A.pdf"
-			(at 60.96 115.57 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +8812,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 115.57 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9317,7 +8823,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1E8R0DA01D"
-			(at 60.96 115.57 0)
+			(at 39.37 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,98 +8843,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 22.86 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8da713c8-f696-49b3-817e-4bd591d72ebb")
-		(property "Reference" "C1"
-			(at 16.51 114.554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18p"
-			(at 16.51 117.094 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 23.8252 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/3/GJM0225C1C180JB01_01A.pdf"
-			(at 22.86 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 22.86 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GJM0225C1C180JB01L"
-			(at 22.86 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "550af24f-7678-48df-a0fb-53a1584afc10")
-		)
-		(pin "2"
-			(uuid "3fff5e2f-42ce-4758-bb2d-0d501a5982c5")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9789,7 +9203,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 115.57 0)
+		(at 26.67 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9799,7 +9213,7 @@
 		(dnp no)
 		(uuid "9e7761cc-7573-444d-8def-31ccd15f2175")
 		(property "Reference" "C3"
-			(at 41.91 114.554 0)
+			(at 20.32 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9810,7 +9224,7 @@
 			)
 		)
 		(property "Value" "8p"
-			(at 41.91 117.094 0)
+			(at 20.32 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9821,7 +9235,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.2252 119.38 0)
+			(at 27.6352 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9832,7 +9246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/1/GRM1555C1E8R0DA01-01A.pdf"
-			(at 48.26 115.57 0)
+			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9843,7 +9257,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 115.57 0)
+			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9854,7 +9268,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1E8R0DA01D"
-			(at 48.26 115.57 0)
+			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +10859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 119.38 0)
+		(at 33.02 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11456,7 +10870,7 @@
 		(fields_autoplaced yes)
 		(uuid "c92a50d9-2c26-4de4-935d-bfe1455ec7aa")
 		(property "Reference" "#PWR08"
-			(at 54.61 125.73 0)
+			(at 33.02 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +10881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 124.46 0)
+			(at 33.02 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11477,7 +10891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 119.38 0)
+			(at 33.02 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,7 +10902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 119.38 0)
+			(at 33.02 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11499,7 +10913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 119.38 0)
+			(at 33.02 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,84 +11948,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc08e037-2d5c-4f10-b37d-b3963d5bd341")
-		(property "Reference" "#PWR03"
-			(at 26.67 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90d6ed82-427f-4e06-80e5-6b13ca4bac69")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
