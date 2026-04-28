@@ -3861,12 +3861,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3874,7 +3872,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3884,8 +3882,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_Depletion_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3896,28 +3894,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3928,40 +3904,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3972,7 +3915,29 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3999,31 +3964,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -4139,11 +4080,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_Depletion_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4158,10 +4099,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4177,9 +4118,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5064,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 97.79)
+			(xy 110.49 96.52) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5274,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46180039-bd61-4d21-af50-ba24bfdd2bf3")
+	)
+	(wire
+		(pts
 			(xy 130.81 36.83) (xy 135.89 36.83)
 		)
 		(stroke
@@ -5464,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 119.38 93.98)
+			(xy 110.49 92.71) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5541,6 +5492,16 @@
 			(type default)
 		)
 		(uuid "791898c2-bb40-48fc-bda1-7d162f5d6d54")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c197968-534d-40cb-8539-c989901b4be0")
 	)
 	(wire
 		(pts
@@ -5804,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 121.92 93.98)
+			(xy 110.49 93.98) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5821,6 +5782,16 @@
 			(type default)
 		)
 		(uuid "c6fd8602-9a12-4d44-863c-d0d9ed7af62f")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae213d7-98bc-437e-b2d2-aa14f3b12273")
 	)
 	(wire
 		(pts
@@ -5944,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 119.38 96.52)
+			(xy 121.92 96.52) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6011,6 +5982,16 @@
 			(justify right bottom)
 		)
 		(uuid "0660f226-4d43-4418-967b-f7bc582b5c93")
+	)
+	(label "BOOT_PULLUP"
+		(at 105.41 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09084b5a-8aa2-4899-be89-031487d38a7a")
 	)
 	(label "I2C_SCL"
 		(at 176.53 91.44 180)
@@ -6102,6 +6083,16 @@
 		)
 		(uuid "3dea12a8-c820-4378-9b59-70333c99655c")
 	)
+	(label "XC2"
+		(at 45.72 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "433d6d95-a4a7-4b9e-a402-699a7c2a3bb8")
+	)
 	(label "MCU_D+"
 		(at 77.47 180.34 180)
 		(effects
@@ -6192,15 +6183,25 @@
 		)
 		(uuid "670ed8f3-88e5-4c9c-8526-8e4860b23bb1")
 	)
-	(label "XC1"
-		(at 45.72 111.76 0)
+	(label "MCU_TX"
+		(at 113.03 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "79135ab2-3043-4f71-b0c5-21743b93cbde")
+		(uuid "6a001c6a-2c56-4e9e-a890-d39500d3e93a")
+	)
+	(label "MCU_RX"
+		(at 113.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7aa6e7-7481-4ad5-af93-8414e502efcd")
 	)
 	(label "I2C_SDA"
 		(at 88.9 177.8 0)
@@ -6251,6 +6252,16 @@
 			(justify left bottom)
 		)
 		(uuid "9df45108-5d85-4e48-b66a-cb8476f940fe")
+	)
+	(label "XC1"
+		(at 63.5 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e1aa6a4-0e3e-4141-a017-ff6299389d53")
 	)
 	(label "RF"
 		(at 251.46 45.72 0)
@@ -6312,16 +6323,6 @@
 		)
 		(uuid "c688cdf9-e377-4d79-9632-b574e617f769")
 	)
-	(label "XC2"
-		(at 63.5 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d694037b-aba5-4761-a257-cba64d561b99")
-	)
 	(label "I2C_SCL"
 		(at 88.9 180.34 0)
 		(effects
@@ -6374,7 +6375,7 @@
 	)
 	(global_label "BAT_MON"
 		(shape input)
-		(at 121.92 73.66 180)
+		(at 120.65 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6384,7 +6385,7 @@
 		)
 		(uuid "46f13960-dee6-40e6-b309-aacfdc3b5e5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5286 73.66 0)
+			(at 109.2586 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6445,7 @@
 			)
 		)
 	)
-	(global_label "PYRO_1_TRIGGER"
+	(global_label "PYRO_2_TRIGGER"
 		(shape input)
 		(at 184.15 86.36 0)
 		(fields_autoplaced yes)
@@ -6470,7 +6471,7 @@
 	)
 	(global_label "PYRO_1_CONT"
 		(shape input)
-		(at 121.92 76.2 180)
+		(at 121.92 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6480,7 +6481,7 @@
 		)
 		(uuid "d05593d8-0171-468b-b672-fb058a7fa242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.9324 76.2 0)
+			(at 105.9324 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +6821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 262.89 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -6854,7 +6855,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 267.97 130.81 0)
+			(at 262.89 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/3/70/1/Infineon_BSS123N_DataSheet_v02_03_en.pdf"
-			(at 262.89 146.05 0)
+			(at 262.89 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +6876,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
 			(at 262.89 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7832,7 +7833,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 97.79 90)
+		(at 110.49 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7842,7 +7843,7 @@
 		(dnp no)
 		(uuid "3d49d454-274e-4f2a-b7a0-8a94187bfe1b")
 		(property "Reference" "TP2"
-			(at 109.982 96.012 90)
+			(at 101.092 96.012 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7852,7 +7853,7 @@
 			)
 		)
 		(property "Value" "MCU_RX"
-			(at 109.982 98.552 90)
+			(at 101.092 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7862,7 +7863,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 119.38 92.71 0)
+			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7873,7 +7874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 92.71 0)
+			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +7885,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 97.79 0)
+			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7896,7 @@
 			)
 		)
 		(property "MPN" "-"
-			(at 119.38 97.79 90)
+			(at 110.49 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7997,7 +7998,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 92.71 90)
+		(at 110.49 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8007,7 +8008,7 @@
 		(dnp no)
 		(uuid "453d28be-012b-4945-aa51-526e3166ebdf")
 		(property "Reference" "TP1"
-			(at 109.982 90.424 90)
+			(at 101.092 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8017,7 +8018,7 @@
 			)
 		)
 		(property "Value" "MCU_TX"
-			(at 109.982 92.964 90)
+			(at 101.092 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8027,7 +8028,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 119.38 87.63 0)
+			(at 110.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,7 +8039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 87.63 0)
+			(at 110.49 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8050,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 92.71 0)
+			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +8061,7 @@
 			)
 		)
 		(property "MPN" "-"
-			(at 119.38 92.71 90)
+			(at 110.49 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
