@@ -4095,7 +4095,7 @@
 	)
 	(rectangle
 		(start 137.16 166.37)
-		(end 172.72 195.58)
+		(end 156.21 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -4304,9 +4304,9 @@
 		)
 		(uuid "97d87225-c35d-40e0-b171-557c3c2bd4d9")
 	)
-	(text "LED indicators"
+	(text "LED boot indicator"
 		(exclude_from_sim no)
-		(at 154.94 163.322 0)
+		(at 147.066 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5232,16 +5232,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 172.72) (xy 161.29 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97dfdbb1-5907-4ef8-b3cb-6880d168fd30")
-	)
-	(wire
-		(pts
 			(xy 97.79 36.83) (xy 107.95 36.83)
 		)
 		(stroke
@@ -5502,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 115.57 96.52)
+			(xy 121.92 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5730,8 +5720,8 @@
 		)
 		(uuid "621d59a5-1eef-4c56-83c4-2faa10d1ab7d")
 	)
-	(label "PANIC"
-		(at 115.57 96.52 0)
+	(label "BUZ_PWM"
+		(at 111.76 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5769,16 +5759,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d7c7de7-204a-4881-9440-f2cbf001cb9f")
-	)
-	(label "PANIC"
-		(at 156.21 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9052036e-5bd8-4ad1-a636-05c7a7c0d21a")
 	)
 	(label "VDD3P3"
 		(at 125.73 36.83 180)
@@ -6275,99 +6255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 161.29 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f1c527d-3190-48a0-a0cc-c414696732b2")
-		(property "Reference" "R9"
-			(at 163.83 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 163.83 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 159.512 184.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "560112110231"
-			(at 161.29 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6cfa1525-11fc-45e7-b743-da18b5b0d3c5")
-		)
-		(pin "1"
-			(uuid "fd13fbbe-39af-4089-ab35-039e1d50741e")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 262.89 133.35 0)
 		(unit 1)
@@ -6759,110 +6646,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 161.29 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23b913fb-3f5b-4c56-b373-a343e0c2d478")
-		(property "Reference" "D2"
-			(at 165.1 176.8474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 165.1 179.3874 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 161.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 161.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HSMC-C170-T0000"
-			(at 161.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b659928-a28e-4f1a-9e6b-dc09b3e7aec6")
-		)
-		(pin "2"
-			(uuid "b987946a-79ed-4bba-b169-86fb5f84666d")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8008,84 +7791,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e08e7ad-8fdc-4450-ba6e-5487cbb21a3b")
-		(property "Reference" "#PWR023"
-			(at 161.29 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fbc0374-1371-43d4-8ec9-b91d0fd9608c")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
