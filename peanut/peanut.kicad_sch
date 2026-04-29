@@ -4529,7 +4529,7 @@
 	)
 	(text_box "NOTE: verified that high-level glitch does not affect pyro triggers"
 		(exclude_from_sim no)
-		(at 180.34 62.23 0)
+		(at 181.61 62.23 0)
 		(size 22.86 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5453,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 170.18 66.04)
+			(xy 180.34 66.04) (xy 170.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5831,8 +5831,8 @@
 		)
 		(uuid "5115a32c-ac76-44b3-92c5-6cbd63bf5043")
 	)
-	(label "LNA_IN"
-		(at 177.8 66.04 180)
+	(label "RF_LNA_IN"
+		(at 180.34 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
