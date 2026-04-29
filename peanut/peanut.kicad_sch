@@ -4351,6 +4351,16 @@
 		)
 		(uuid "1081babc-89d4-48c1-988a-4eedea39bd67")
 	)
+	(text "I2C pull-ups"
+		(exclude_from_sim no)
+		(at 188.976 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b7907c5-369d-417b-aae1-bdd39dfe0eed")
+	)
 	(text "System Clock"
 		(exclude_from_sim no)
 		(at 34.544 99.822 0)
@@ -4833,6 +4843,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 116.84) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126e7afa-7819-4465-a0cf-e6b1766ebf8d")
+	)
+	(wire
+		(pts
 			(xy 50.8 180.34) (xy 49.53 180.34)
 		)
 		(stroke
@@ -4920,6 +4940,16 @@
 			(type default)
 		)
 		(uuid "2b416de0-3cbe-4436-a059-abaa0486b3a0")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383b12df-f94e-4e5f-853b-07d8eb812265")
 	)
 	(wire
 		(pts
@@ -5731,6 +5761,16 @@
 		)
 		(uuid "0b3ddd4a-25d5-4212-84da-784386c79901")
 	)
+	(label "I2C_SDA"
+		(at 184.15 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ae2a442-244d-4591-a028-a63707fc22fe")
+	)
 	(label "VDDA"
 		(at 137.16 33.02 0)
 		(effects
@@ -5930,6 +5970,16 @@
 			(justify right bottom)
 		)
 		(uuid "9e1aa6a4-0e3e-4141-a017-ff6299389d53")
+	)
+	(label "I2C_SCL"
+		(at 193.04 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9edd5342-6809-473d-ae32-a0964cf92ebb")
 	)
 	(label "RF"
 		(at 245.11 38.1 0)
@@ -7286,6 +7336,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 184.15 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3befb21c-87a2-4915-80f8-19fda66fae00")
+		(property "Reference" "#PWR055"
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 184.15 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 184.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27b17050-d479-4ab6-bef3-03b25c98852a")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 48.26 0)
 		(unit 1)
@@ -8008,6 +8136,177 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 193.04 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ee3d05-ff05-4ab6-9524-2ea92b9c7c67")
+		(property "Reference" "#PWR056"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 193.04 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 193.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b492b0d5-5610-46eb-b406-179200f0ede3")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6897734f-0443-4a6c-8cae-0e043da0df8a")
+		(property "Reference" "R25"
+			(at 186.69 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 186.69 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.372 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-2AEB222X"
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eab01fec-a131-4ba1-8c97-2820a292d0a7")
+		)
+		(pin "1"
+			(uuid "ec5a702c-40d3-43c2-b375-b0cdf7af781c")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11775,6 +12074,99 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3d11cdd-e0c6-4cea-a37d-c105fa8b3a2b")
+		(property "Reference" "R26"
+			(at 195.58 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 195.58 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 191.262 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERA-2AEB222X"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc339810-756e-4085-9f97-649fc11742f0")
+		)
+		(pin "1"
+			(uuid "6157dcd5-5fd7-41c1-bdbc-5dd081958b9c")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
+					(reference "R26")
 					(unit 1)
 				)
 			)
