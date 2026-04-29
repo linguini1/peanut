@@ -1978,7 +1978,7 @@
 		)
 	)
 	(rectangle
-		(start 179.07 59.69)
+		(start 177.8 59.69)
 		(end 205.74 83.82)
 		(stroke
 			(width 0)
@@ -1991,7 +1991,7 @@
 	)
 	(rectangle
 		(start 73.66 96.52)
-		(end 93.98 129.54)
+		(end 93.98 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -2061,7 +2061,7 @@
 		)
 		(uuid "ea1a32ae-ec39-448b-a234-04df64d05505")
 	)
-	(text "4V2 -> 3V3\n0V -> 0V"
+	(text "4V2 -> 3V2\n0V -> 0V"
 		(exclude_from_sim no)
 		(at 40.894 135.636 0)
 		(effects
@@ -2081,6 +2081,16 @@
 			)
 		)
 		(uuid "4d78e2dd-aae3-4f8f-94c0-2f8419d94039")
+	)
+	(text "Vf = 2V2\nIf = 3.3mA"
+		(exclude_from_sim no)
+		(at 80.518 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57f02665-0f13-4112-9c5c-915f06096da0")
 	)
 	(text "Reverse polarity protection"
 		(exclude_from_sim no)
@@ -2133,6 +2143,16 @@
 		)
 		(uuid "90199abf-6c79-4e8b-934c-9a4ac4744299")
 	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 193.294 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c326597f-4eee-446e-96ce-cf69a61b60e9")
+	)
 	(text "Battery input"
 		(exclude_from_sim no)
 		(at 222.758 57.658 0)
@@ -2152,6 +2172,26 @@
 			)
 		)
 		(uuid "cb4d01b9-d0ff-4875-96d1-2d8472a92de6")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 195.834 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d24ddf91-2c2c-48d6-b94b-461bc92a3844")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 187.452 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "def674d5-c91f-4f43-a86e-a2e81945e2ea")
 	)
 	(text "Selected power source is the highest input voltage"
 		(exclude_from_sim no)
@@ -2221,6 +2261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c80ea43f-8838-4dd6-b6aa-c34ce1bbb5d7")
+	)
+	(junction
+		(at 229.87 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63df334-f4d3-4192-a1d7-1235dbcfe5a6")
 	)
 	(junction
 		(at 52.07 68.58)
@@ -2358,6 +2404,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 66.04) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318bb049-54ca-4567-a133-dbafe352ffd9")
+	)
+	(wire
+		(pts
 			(xy 43.18 106.68) (xy 44.45 106.68)
 		)
 		(stroke
@@ -2458,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 186.69 68.58)
+			(xy 184.15 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 66.04) (xy 228.6 66.04)
+			(xy 232.41 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2675,26 +2731,6 @@
 			(justify right bottom)
 		)
 		(uuid "2a4308ee-000a-475c-83f9-2fbad0b3de14")
-	)
-	(label "BAT+"
-		(at 233.68 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69be1aef-c7cf-4726-8376-0354c676cbcf")
-	)
-	(label "BAT+"
-		(at 181.61 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "905e5b24-2dbf-40b9-b57d-c2545c2eb19d")
 	)
 	(label "PWR_SRC"
 		(at 158.75 71.12 180)
@@ -3920,6 +3956,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 232.41 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4edef003-219d-4e71-9061-8ec0114a3f27")
+		(property "Reference" "#PWR035"
+			(at 232.41 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_RAW"
+			(at 232.41 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 232.41 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58a4056-c33c-44f4-b579-feea4545b612")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 229.87 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d3f6fb0-5ab6-44d8-aded-742ce2865793")
+		(property "Reference" "#FLG05"
+			(at 229.87 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 229.87 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 229.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fb7f53f-1166-4fa1-ae45-2f4e2f75c447")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 72.39 0)
 		(unit 1)
@@ -4507,6 +4699,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 184.15 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a28effb-81c6-4548-b654-065d3298a028")
+		(property "Reference" "#PWR037"
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_RAW"
+			(at 184.15 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 184.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f33cf2d-515f-4ddf-bfdb-ee129fe79058")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 198.12 68.58 0)
 		(unit 1)
@@ -4617,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 189.23 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5228,7 +5498,7 @@
 				)
 			)
 		)
-		(property "MPN" "LM3671MF-3.3/NOPB"
+		(property "MPN" "LM3671MFX-3.3/NOPB"
 			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)

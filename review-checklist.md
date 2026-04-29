@@ -15,6 +15,15 @@ for order.
 - [ ] Each component has a BOM MPN that is in stock on Mouser/Digikey
 - [ ] Pin assignment to component footprint is correct (check _all_
       non-passives)
+  - [ ] Clock
+  - [ ] GPIO NMOS
+  - [ ] Pyro NMOS
+  - [ ] PMOS
+  - [ ] MCU
+  - [ ] Barometer
+  - [ ] USB
+  - [ ] Regulator
+  - [ ] Power MUX
 - [ ] Connections to FETs are correct
 
 ## Component Ratings
@@ -36,6 +45,7 @@ for order.
 - [ ] Load capacitance for clock is correct
 - [ ] Boot/enable circuitry is correct for MCU
 - [ ] Pin assignments for MCU are correct
+- [ ] Pin assignments for barometer are correct
 
 ## Routing
 

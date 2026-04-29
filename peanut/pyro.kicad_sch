@@ -1574,6 +1574,16 @@
 		)
 		(uuid "22ede7cd-a79f-4926-851c-244134dea561")
 	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 47.752 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f40f5d9-03cd-4c70-b1e9-e8d3cf2acac1")
+	)
 	(text "Pyro outputs"
 		(exclude_from_sim no)
 		(at 249.428 89.662 0)
@@ -1584,7 +1594,17 @@
 		)
 		(uuid "42c3c0e3-36b1-4ee4-962b-69dddc98d053")
 	)
-	(text "4V2 -> 3V3\n0V -> 0V"
+	(text "Vf = 2V\nIf = 6.6mA - 2.42mA"
+		(exclude_from_sim no)
+		(at 69.342 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "577180cb-d314-440b-b8bf-47c000ad3840")
+	)
+	(text "4V2 -> 3V2\n0V -> 0V"
 		(exclude_from_sim no)
 		(at 34.544 165.354 0)
 		(effects
@@ -1595,6 +1615,16 @@
 		)
 		(uuid "5cccd3fb-1895-4782-b955-f221ad5d3205")
 	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 44.704 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8188e5f7-414f-40a1-a1c1-99b9c5de84e0")
+	)
 	(text "Continuity indicator LED (~5-10mA)"
 		(exclude_from_sim no)
 		(at 66.294 80.264 0)
@@ -1604,6 +1634,16 @@
 			)
 		)
 		(uuid "9c17026a-9e93-4763-ae48-53faecf25cef")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 48.26 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5e2e75c-b0fd-41d7-9442-71fd2385a780")
 	)
 	(text "Pyro- already has pull-down"
 		(exclude_from_sim no)
@@ -2471,8 +2511,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2430eab6-4fc2-49f7-a087-0092a8b3aeef")
-		(property "Reference" "#PWR037"
+		(uuid "10c03649-b732-489e-bdfb-38704d89961e")
+		(property "Reference" "#PWR058"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2483,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
+		(property "Value" "VBAT_RAW"
 			(at 196.85 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,12 +2567,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "83979097-c194-4f39-b561-8ba502bf21e3")
+			(uuid "43a73baf-fd5b-4730-be6e-834ad2a5ffbd")
 		)
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR037")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4179,6 +4219,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 156.21 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9504128b-1569-4642-b4ab-c36b2a57a4f6")
+		(property "Reference" "#PWR057"
+			(at 156.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT_RAW"
+			(at 156.21 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f6d1dbd-0d8e-41f8-aad5-6982364f3710")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 107.95 0)
 		(unit 1)
@@ -4266,84 +4384,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 156.21 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a057cc43-3093-4a99-b2fb-16a013975ec9")
-		(property "Reference" "#PWR035"
-			(at 156.21 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 156.21 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 156.21 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd4f69c0-4173-4fe3-9026-827b21920134")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)

@@ -244,7 +244,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1524000|558800|b7281dfb-23e1-42f0-8b54-81819698111b|0b3ddd4a-25d5-4212-84da-784386c79901|/5c6b6cfc-6c84-425a-9b66-e6111713aae8|/5c6b6cfc-6c84-425a-9b66-e6111713aae8|/5c6b6cfc-6c84-425a-9b66-e6111713aae8",
+        ""
+      ],
+      [
+        "multiple_net_names|2082800|901700|43a73baf-fd5b-4730-be6e-834ad2a5ffbd|97b43c0c-1771-4457-94bb-3ece7a6bde4e|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03",
+        ""
+      ],
+      [
+        "multiple_net_names|2374900|1016000|5f6d1dbd-0d8e-41f8-aad5-6982364f3710|70ff2798-e850-4730-a8ce-9a305494575d|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03",
+        ""
+      ],
+      [
+        "pin_to_pin|838200|685800|d5eb3b85-d898-409b-aeec-3e16f8e996cf|9eb45fd3-a1a2-4f51-a97d-6fda7c4265d8|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed|/5c6b6cfc-6c84-425a-9b66-e6111713aae8",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1371600|609600|34adaf9a-c597-420c-9f71-4891a411abe3|00000000-0000-0000-0000-000000000000|/5c6b6cfc-6c84-425a-9b66-e6111713aae8|/5c6b6cfc-6c84-425a-9b66-e6111713aae8|",
+        "Driven via 3V3 net through inductor"
+      ],
+      [
+        "power_pin_not_driven|1917700|762000|14778250-ceaf-45e1-8bc1-335435d6fda3|00000000-0000-0000-0000-000000000000|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed|/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -681,7 +706,7 @@
         "uuid": "5c6b6cfc-6c84-425a-9b66-e6111713aae8"
       }
     ],
-    "used_designators": "#FLG1-3,Y1,#PWR1-56,AE1,C1-18,BZ1,H1-2,J1-4,JP1-2,R1-26,L1-3,Q1-5,D1-4,U1-5",
+    "used_designators": "#FLG1-5,Y1,#PWR1-58,AE1,C1-18,BZ1,H1-2,J1-4,JP1-2,R1-26,L1-3,Q1-5,D1-4,U1-5",
     "variants": []
   },
   "sheets": [

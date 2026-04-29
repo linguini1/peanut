@@ -713,7 +713,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4040,6 +4040,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -4351,6 +4466,16 @@
 		)
 		(uuid "1081babc-89d4-48c1-988a-4eedea39bd67")
 	)
+	(text "Peak consumption: 335mA (TX@21dBm)"
+		(exclude_from_sim no)
+		(at 154.686 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "245298af-be38-410c-acec-732551299d5e")
+	)
 	(text "I2C pull-ups"
 		(exclude_from_sim no)
 		(at 188.976 98.806 0)
@@ -4382,20 +4507,9 @@
 		)
 		(uuid "6dc874fc-f8da-4f5c-b407-eb593b4f03be")
 	)
-	(text "TODO: check this antenna"
+	(text "Max: 30mA"
 		(exclude_from_sim no)
-		(at 240.792 50.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74de4c47-da59-4788-ae52-93015d04625e")
-	)
-	(text "30mA"
-		(exclude_from_sim no)
-		(at 227.584 76.2 0)
+		(at 225.298 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4413,6 +4527,16 @@
 			(justify left)
 		)
 		(uuid "80fcf8d2-f389-4d1d-b984-6bc3bb25ae23")
+	)
+	(text "No traces between pads"
+		(exclude_from_sim no)
+		(at 52.324 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "867a2ac2-7654-472b-9f98-0882d4b67357")
 	)
 	(text "Arming buzzer"
 		(exclude_from_sim no)
@@ -4434,6 +4558,16 @@
 			)
 		)
 		(uuid "97d87225-c35d-40e0-b171-557c3c2bd4d9")
+	)
+	(text "NOTE: series on XTAL_P?"
+		(exclude_from_sim no)
+		(at 68.326 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a550802d-68e0-4576-8349-6c928f1417f2")
 	)
 	(text "LED boot indicator"
 		(exclude_from_sim no)
@@ -4497,6 +4631,16 @@
 		)
 		(uuid "e1a455c7-26f4-4d73-8c72-9bb85d34f684")
 	)
+	(text "Vf = 2V2\nIf = 3.3mA"
+		(exclude_from_sim no)
+		(at 75.438 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7ccadac-4afc-475e-a086-5610809ddde8")
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 151.384 17.526 0)
@@ -4509,7 +4653,7 @@
 	)
 	(text "C_L = 8p"
 		(exclude_from_sim no)
-		(at 42.672 106.934 0)
+		(at 45.72 107.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4600,6 +4744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31a0782d-51bc-4c1c-85fc-50d29633536a")
+	)
+	(junction
+		(at 45.72 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f2e054-b881-4d0f-a9ce-577555ea45ec")
 	)
 	(junction
 		(at 237.49 46.99)
@@ -4933,13 +5083,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 124.46 99.06)
+			(xy 119.38 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b416de0-3cbe-4436-a059-abaa0486b3a0")
+	)
+	(wire
+		(pts
+			(xy 45.72 147.32) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305d4ffd-8085-44f6-bca2-2eb5b655debf")
 	)
 	(wire
 		(pts
@@ -5160,16 +5320,6 @@
 			(type default)
 		)
 		(uuid "63b114c0-ce61-4abe-b013-23e080dc1f8e")
-	)
-	(wire
-		(pts
-			(xy 46.99 147.32) (xy 45.72 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643abea2-4e43-4795-8282-93bd46faed94")
 	)
 	(wire
 		(pts
@@ -5553,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 146.05) (xy 46.99 147.32)
+			(xy 48.26 146.05) (xy 48.26 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5633,7 +5783,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 124.46 101.6)
+			(xy 119.38 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +6062,7 @@
 		(uuid "634707e5-34c8-40f1-bfe7-bb05bba8b6da")
 	)
 	(label "XC2"
-		(at 120.65 99.06 0)
+		(at 119.38 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6012,7 +6162,7 @@
 		(uuid "bfffa771-9627-4b34-9316-04963b16d64d")
 	)
 	(label "XC1"
-		(at 120.65 101.6 0)
+		(at 119.38 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6672,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "40MHz"
+		(property "Value" "40MHz +/-10ppm"
 			(at 33.02 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7987,7 +8137,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 46.99 146.05 0)
+		(at 48.26 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7998,7 +8148,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d91dfed-af0b-4f54-bf89-c22c831d5a77")
 		(property "Reference" "#PWR07"
-			(at 46.99 149.86 0)
+			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +8159,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 46.99 140.97 0)
+			(at 48.26 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8019,7 +8169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 146.05 0)
+			(at 48.26 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +8180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 146.05 0)
+			(at 48.26 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,7 +8191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 46.99 146.05 0)
+			(at 48.26 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "10k"
 			(at 186.69 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" ""
 			(at 184.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +8436,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB222X"
+		(property "MPN" "SFR01MZPJ103"
 			(at 184.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8403,7 +8553,7 @@
 		(pin "A1"
 			(uuid "e546a87b-7eab-400a-a8e7-9f7b17295edd")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "0ce48529-155a-43a7-bd64-0fbcec7ebfb4")
 		)
 		(pin "A4"
@@ -9064,6 +9214,84 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 45.72 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f3d65c-1890-429a-9a3e-188a203b5133")
+		(property "Reference" "#FLG04"
+			(at 45.72 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 45.72 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f6c8648-610c-4dd0-a824-85d452ca40af")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12102,7 +12330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "10k"
 			(at 195.58 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" ""
 			(at 193.04 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12146,7 +12374,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB222X"
+		(property "MPN" "SFR01MZPJ103"
 			(at 193.04 110.49 0)
 			(hide yes)
 			(show_name no)
