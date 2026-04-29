@@ -6859,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6870,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 190.5 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6892,7 +6892,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01J"
+		(property "MPN" "KGM15AR70J104KT"
 			(at 190.5 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8482,7 +8482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8493,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 154.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8515,7 +8515,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01J"
+		(property "MPN" "KGM15AR70J104KT"
 			(at 154.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8839,7 +8839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 54.61 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8872,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01J"
+		(property "MPN" "KGM15AR70J104KT"
 			(at 54.61 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11433,7 +11433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11444,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/assets/products/capacitor/KGM_Series_e.pdf"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11466,7 +11466,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61A104KA01J"
+		(property "MPN" "KGM15AR70J104KT"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
