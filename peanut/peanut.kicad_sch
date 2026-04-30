@@ -4345,7 +4345,7 @@
 	)
 	(rectangle
 		(start 15.24 134.62)
-		(end 81.28 195.58)
+		(end 90.17 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -5343,6 +5343,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 177.8) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f01425-3859-425a-838c-9e1c65ca04d3")
+	)
+	(wire
+		(pts
 			(xy 147.32 53.34) (xy 147.32 60.96)
 		)
 		(stroke
@@ -5603,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 177.8) (xy 77.47 177.8)
+			(xy 78.74 177.8) (xy 87.63 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5743,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 180.34) (xy 77.47 180.34)
+			(xy 78.74 180.34) (xy 87.63 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5820,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "ed4ebd0a-14df-43a0-a1eb-e3a9be99cd76")
+	)
+	(wire
+		(pts
+			(xy 71.12 180.34) (xy 60.96 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06257f6-8776-424b-957c-2f9d7bbf9f1d")
 	)
 	(wire
 		(pts
@@ -6002,7 +6022,7 @@
 		(uuid "433d6d95-a4a7-4b9e-a402-699a7c2a3bb8")
 	)
 	(label "MCU_D+"
-		(at 77.47 180.34 180)
+		(at 87.63 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6091,6 +6111,16 @@
 		)
 		(uuid "670ed8f3-88e5-4c9c-8526-8e4860b23bb1")
 	)
+	(label "PROT_D-"
+		(at 62.23 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86c1294a-46ca-4fcb-a567-857c3a4f893a")
+	)
 	(label "I2C_SDA"
 		(at 19.05 38.1 0)
 		(effects
@@ -6161,6 +6191,16 @@
 		)
 		(uuid "bd008c17-c313-4a57-97e6-ff46d9989908")
 	)
+	(label "PROT_D+"
+		(at 62.23 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be3a05a6-762d-42d8-b882-685afdc2e0fa")
+	)
 	(label "I2C_SDA"
 		(at 179.07 81.28 180)
 		(effects
@@ -6182,7 +6222,7 @@
 		(uuid "c1f4e43c-b492-4499-99c0-dc70cf17d439")
 	)
 	(label "MCU_D-"
-		(at 77.47 177.8 180)
+		(at 87.63 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10094,7 +10134,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 180.34 90)
+		(at 74.93 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10104,7 +10144,7 @@
 		(dnp no)
 		(uuid "a3281057-7072-40b8-beee-c775069c94d6")
 		(property "Reference" "R6"
-			(at 64.77 182.88 90)
+			(at 74.93 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10114,7 +10154,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 64.77 185.42 90)
+			(at 74.93 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10124,7 +10164,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 182.118 90)
+			(at 74.93 182.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 180.34 0)
+			(at 74.93 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10146,7 +10186,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 180.34 0)
+			(at 74.93 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10157,7 +10197,7 @@
 			)
 		)
 		(property "MPN" "ERA-2AKD270X"
-			(at 64.77 180.34 90)
+			(at 74.93 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11512,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 177.8 90)
+		(at 74.93 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11482,7 +11522,7 @@
 		(dnp no)
 		(uuid "cd6e04cc-2984-4ff1-b444-29d66e454fdf")
 		(property "Reference" "R5"
-			(at 64.77 172.72 90)
+			(at 74.93 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11492,7 +11532,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 64.77 175.26 90)
+			(at 74.93 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11502,7 +11542,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 179.578 90)
+			(at 74.93 179.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11513,7 +11553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 177.8 0)
+			(at 74.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +11564,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 177.8 0)
+			(at 74.93 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11535,7 +11575,7 @@
 			)
 		)
 		(property "MPN" "ERA-2AKD270X"
-			(at 64.77 177.8 90)
+			(at 74.93 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

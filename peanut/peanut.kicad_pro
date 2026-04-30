@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.35,
+          "width": 1.29
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,7 +65,68 @@
           "width": 0.286
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|123175000|101320000|02bd8aa0-e0be-4284-b304-251d6efcadab|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|123175000|92680000|bd157f18-7a21-4822-b031-b98bf2c5ae58|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|127355000|101320000|a3748eb3-55e4-4b13-a9a0-60a0e1a8c0a6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|127355000|92680000|f9304179-0452-4b34-ae89-6660275d15d5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "clearance|145661643|101921769|b8662783-51ab-4029-962f-fb34faefd8c5|458f8d40-f479-4f84-8d8b-73b843b5df15",
+          ""
+        ],
+        [
+          "clearance|145690000|104900000|585334cc-6de3-481a-aa33-f8c25225afd7|b1829f5f-3cfa-4e87-8f7c-0564f6725cf6",
+          ""
+        ],
+        [
+          "clearance|145785356|98608578|e523c433-d976-4597-825d-aa9fd075a770|64ee904e-2f2d-4309-b80b-a01848e6281c",
+          ""
+        ],
+        [
+          "clearance|145871643|103299930|a9fd8cde-182a-4690-be0c-fbc945f32792|95ae6fd4-7f9c-444b-81ee-126840d1166d",
+          ""
+        ],
+        [
+          "text_height|127000000|91199999|55d12885-ae80-4b39-9de5-dff8a6b2cc8a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|129500000|91137500|48de86a1-3a27-4972-b94e-5f78752bd994|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|132000000|91137500|b9167a4a-4643-4728-9594-15c3ae172584|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|135622250|88572249|e93994d9-7fdf-4b44-91d8-b40284665e90|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|141750000|109000000|c60f6c02-06c6-4791-a8eb-aaca83e87417|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|135500000|87949999|8e4f1f47-b318-4149-b597-9f9a19d2c62f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|135622250|88572249|e93994d9-7fdf-4b44-91d8-b40284665e90|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -559,6 +620,19 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.65,
+        "via_drill": 0.25
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -568,7 +642,7 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": "",
@@ -586,7 +660,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.284,
         "tuning_profile": "",
@@ -612,6 +686,14 @@
       {
         "netclass": "USB",
         "pattern": "/*D+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "3V3"
       }
     ]
   },
