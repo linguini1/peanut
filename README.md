@@ -8,14 +8,14 @@
 
 A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
 
+* Barometric pressure sensor (up to 30km)
 * Dual deploy capable (two pyro channels)
 * Visual continuity LEDs
 * On-board 1MB storage
-  * Barometric altitude measurements
+  * Altitude measurements
   * Flight events (ascent, apogee, landing, etc.)
   * Deployment events
 * Mach dip filtering (works on flights that break Mach)
-* On-board, time-stamped altitude and deployment event logging
 * Audio arming indicator
 * Bluetooth connection
   * Deployment testing with flight simulations over BLE
