@@ -2474,7 +2474,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4081,7 +4081,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 83.82 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -4363,7 +4363,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 146.05 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 46.99 142.24 90)
 			(hide yes)
 			(show_name no)

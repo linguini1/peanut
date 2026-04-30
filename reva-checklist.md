@@ -12,7 +12,7 @@ for order.
 
 ## Components
 
-- [ ] Each component has a BOM MPN that is in stock on Mouser/Digikey
+- [x] Each component has a BOM MPN that is in stock on Mouser/Digikey
 - [x] Pin assignment to component footprint is correct (check _all_
       non-passives)
   - [x] Clock

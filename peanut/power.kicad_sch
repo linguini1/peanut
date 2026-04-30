@@ -2061,6 +2061,16 @@
 		)
 		(uuid "ea1a32ae-ec39-448b-a234-04df64d05505")
 	)
+	(text "TODO: alternative inductor (cheaper)"
+		(exclude_from_sim no)
+		(at 80.518 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "442c2999-1619-465d-846c-c753ed4153ff")
+	)
 	(text "4V2 -> 3V2\n0V -> 0V"
 		(exclude_from_sim no)
 		(at 40.894 135.636 0)
@@ -3896,7 +3906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LPO3310-222MLC:LPO3310222MLC"
+		(property "Footprint" "SRN3015BTA-2R2M:SRN3015BTA2R2M"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3907,7 +3917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/995/1/lpo3310.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08042023_SRN3015BTA_datasheet.pdf"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3929,7 +3939,7 @@
 				)
 			)
 		)
-		(property "MPN" "LPO3310-222MLC"
+		(property "MPN" "SRN3015BTA-2R2M"
 			(at 77.47 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -4268,7 +4278,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 48.26 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5230,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 163.83 77.47 0)
 			(hide yes)
 			(show_name no)

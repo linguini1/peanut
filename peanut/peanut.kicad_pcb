@@ -220,7 +220,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -912,7 +912,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1086,7 +1086,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1260,7 +1260,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3212,7 +3212,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4309,7 +4309,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4657,7 +4657,7 @@
 				)
 			)
 		)
-		(property "MPN" "-"
+		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4833,7 +4833,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5349,7 +5349,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6216,7 +6216,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6390,7 +6390,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "MPN" "LM3671MF-3.3/NOPB"
+		(property "MPN" "LM3671MFX-3.3/NOPB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8426,7 +8426,7 @@
 				)
 			)
 		)
-		(property "MPN" "-"
+		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9347,7 +9347,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10928,7 +10928,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15891,16 +15891,15 @@
 			)
 		)
 	)
-	(footprint "LPO3310-222MLC:LPO3310222MLC"
+	(footprint "SRN3015BTA-2R2M:SRN3015BTA2R2M"
 		(layer "B.Cu")
 		(uuid "b790be58-32db-43f9-a0ba-4a2308a20e68")
-		(at 139.25 106.16 -90)
-		(descr "3.3x3.3x1.0mm")
+		(at 139.25 105.849999 -90)
+		(descr "SRN3015BTA-2R2M")
 		(tags "Inductor")
 		(property "Reference" "L3"
 			(at 0 0 90)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "702a1dd7-76e0-485f-be9a-a559d741938b")
 			(effects
 				(font
@@ -15923,7 +15922,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/995/1/lpo3310.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08042023_SRN3015BTA_datasheet.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15947,12 +15946,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "LPO3310-222MLC"
-			(at 0 0 90)
+		(property "MPN" "SRN3015BTA-2R2M"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f27ff687-f053-4f28-9082-695c90d5dc3c")
+			(uuid "9c145c69-27e0-4140-9c3b-a1a5aeff3f97")
 			(effects
 				(font
 					(size 1 1)
@@ -15965,27 +15964,21 @@
 		(path "/f944ce75-1da7-4030-9ed2-502ac98b17ed/48356866-02f1-4aa3-bd95-023074bef7ec")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.2 1.65)
-			(end 0.2 1.65)
+			(start -0.2 1.5)
+			(end 0.2 1.5)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ad925545-5606-49ca-9a23-2ca6a12a3554")
+			(uuid "f8c0c1fa-5295-4b9c-9c27-9618b28fd71e")
 		)
 		(fp_line
-			(start -2.600001 0)
-			(end -2.600001 0)
+			(start -2.3 0)
+			(end -2.3 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15994,8 +15987,8 @@
 			(uuid "5bcf949c-e5a1-45a5-a21b-83c3f9eed28f")
 		)
 		(fp_line
-			(start -2.5 0)
-			(end -2.5 0)
+			(start -2.2 0)
+			(end -2.2 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16004,19 +15997,19 @@
 			(uuid "d4df419d-ca0c-4089-b0e0-8fd6cfa97ab6")
 		)
 		(fp_line
-			(start -0.2 -1.65)
-			(end 0.2 -1.65)
+			(start -0.2 -1.5)
+			(end 0.2 -1.5)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f8c0c1fa-5295-4b9c-9c27-9618b28fd71e")
+			(uuid "ad925545-5606-49ca-9a23-2ca6a12a3554")
 		)
 		(fp_arc
-			(start -2.600001 0)
-			(mid -2.55 -0.050001)
-			(end -2.5 0)
+			(start -2.3 0)
+			(mid -2.25 -0.05)
+			(end -2.2 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16025,9 +16018,9 @@
 			(uuid "fb251358-99e7-4e40-9f29-2e9baf76b5fb")
 		)
 		(fp_arc
-			(start -2.5 0)
-			(mid -2.55 0.05)
-			(end -2.600001 0)
+			(start -2.2 0)
+			(mid -2.25 0.05)
+			(end -2.3 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16036,28 +16029,8 @@
 			(uuid "7cab491f-bb31-4133-8883-e9b6765ef6e3")
 		)
 		(fp_line
-			(start -3.05 2.88)
-			(end 3.05 2.88)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c964310c-724b-4e1a-b6b9-69f2be61113e")
-		)
-		(fp_line
-			(start 3.05 2.88)
-			(end 3.05 -2.88)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "dc6c7ec6-83a5-4dcd-bace-62daf4709acd")
-		)
-		(fp_line
-			(start -3.05 -2.88)
-			(end -3.05 2.88)
+			(start -2.75 2.75)
+			(end 2.75 2.75)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16066,8 +16039,18 @@
 			(uuid "d3bc84e0-2036-4f9d-9d63-da06079ab259")
 		)
 		(fp_line
-			(start 3.05 -2.88)
-			(end -3.05 -2.88)
+			(start 2.75 2.75)
+			(end 2.75 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "dc6c7ec6-83a5-4dcd-bace-62daf4709acd")
+		)
+		(fp_line
+			(start -2.75 -2.75)
+			(end -2.75 2.75)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16076,8 +16059,18 @@
 			(uuid "f68601b2-9cd0-4d2b-a9bf-81dd453cf267")
 		)
 		(fp_line
-			(start -1.65 1.65)
-			(end 1.65 1.65)
+			(start 2.75 -2.75)
+			(end -2.75 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c964310c-724b-4e1a-b6b9-69f2be61113e")
+		)
+		(fp_line
+			(start -1.5 1.5)
+			(end -1.5 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16086,18 +16079,18 @@
 			(uuid "00f9e21a-6420-460d-99ec-e86bab7e4e99")
 		)
 		(fp_line
-			(start 1.65 1.65)
-			(end 1.65 -1.65)
+			(start 1.5 1.5)
+			(end -1.5 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "670c5f7d-bf1f-4bd2-ab1c-66e3b62e7c68")
+			(uuid "7e0a445f-7f03-4e99-bc8a-fd639e0874a1")
 		)
 		(fp_line
-			(start -1.65 -1.65)
-			(end -1.65 1.65)
+			(start -1.5 -1.5)
+			(end 1.5 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16106,14 +16099,14 @@
 			(uuid "ad1b74cf-77f5-4c4e-8c2f-4e2a47885eac")
 		)
 		(fp_line
-			(start 1.65 -1.65)
-			(end -1.65 -1.65)
+			(start 1.5 -1.5)
+			(end 1.5 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "7e0a445f-7f03-4e99-bc8a-fd639e0874a1")
+			(uuid "670c5f7d-bf1f-4bd2-ab1c-66e3b62e7c68")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -16128,8 +16121,8 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.34 0 270)
-			(size 1.42 3.76)
+			(at -1.1 0 270)
+			(size 1.3 3.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(U4-SW)")
 			(pinfunction "1_1")
@@ -16137,8 +16130,8 @@
 			(uuid "5241263a-0819-47e7-9ec1-220f9f1e16cc")
 		)
 		(pad "2" smd rect
-			(at 1.34 0 270)
-			(size 1.42 3.76)
+			(at 1.1 0 270)
+			(size 1.3 3.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "3V3")
 			(pinfunction "2_2")
@@ -16146,6 +16139,17 @@
 			(uuid "4afe9578-8e83-411d-9752-8622ee52ea71")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../LIB_SRN3015BTA-2R2M/3D/SRN3015BTA-2R2M.stp"
+			(offset
+				(xyz 0 -0.02999999888 0.759999979)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 90)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "B.Cu")

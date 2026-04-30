@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN3015BTA-2R2M
+D Ind,3x3x1.3mm,2.2uH+/-20%,2.5A,shd
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRN3015BTA.pdf
+$ENDCMP
+#
+#End Doc Library

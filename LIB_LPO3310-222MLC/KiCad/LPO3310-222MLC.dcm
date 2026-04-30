@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LPO3310-222MLC
-D Fixed Inductors 2.2uH Unshld 20% 1.1A 150 mOhms
-K
-F https://www.coilcraft.com/getmedia/969136e4-ad5b-42ce-81cd-6b9e21a3d316/LPO3310.pdf
-$ENDCMP
-#
-#End Doc Library

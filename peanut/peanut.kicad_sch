@@ -4559,7 +4559,17 @@
 		)
 		(uuid "97d87225-c35d-40e0-b171-557c3c2bd4d9")
 	)
-	(text "NOTE: series on XTAL_P?"
+	(text "TODO: MS5607?"
+		(exclude_from_sim no)
+		(at 55.372 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9efd3981-d744-4dbc-93bb-9c7f4e958c88")
+	)
+	(text "TODO: series on XTAL_P?"
 		(exclude_from_sim no)
 		(at 68.326 116.586 0)
 		(effects
@@ -8436,7 +8446,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 184.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9963,7 +9973,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10056,7 +10066,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10395,7 +10405,7 @@
 				)
 			)
 		)
-		(property "MPN" "-"
+		(property "MPN" ""
 			(at 49.53 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -10672,7 +10682,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10765,7 +10775,7 @@
 				)
 			)
 		)
-		(property "MPN" "-"
+		(property "MPN" ""
 			(at 25.4 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -12374,7 +12384,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 193.04 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12467,7 +12477,7 @@
 				)
 			)
 		)
-		(property "MPN" "SFR01MZPJ103"
+		(property "MPN" "MCS04020C1002FE000"
 			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
