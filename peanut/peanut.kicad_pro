@@ -99,6 +99,14 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|132480000|105750000|57f50321-c8c1-4d01-b01e-5896c01c0d7b|00000000-0000-0000-0000-000000000000",
+          "Modified to remove silkscreen arrow"
+        ],
+        [
+          "lib_footprint_mismatch|163955000|94785000|2ca6e8d8-832b-42d8-8d0a-d5e3f6f34b9c|00000000-0000-0000-0000-000000000000",
+          "Modified to remove silkscreen arrow"
+        ],
+        [
           "text_height|127000000|91199999|55d12885-ae80-4b39-9de5-dff8a6b2cc8a|00000000-0000-0000-0000-000000000000",
           ""
         ],
