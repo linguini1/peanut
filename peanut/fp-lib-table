@@ -4,4 +4,5 @@
 	(lib (name "CMI-0955-03TH") (type "KiCad") (uri "${KIPRJMOD}/../LIB_CMI-0955-03TH/KiCad") (options "") (descr ""))
 	(lib (name "ACAG0201-2450-T") (type "KiCad") (uri "${KIPRJMOD}/../LIB_ACAG0201-2450-T/KiCad") (options "") (descr ""))
 	(lib (name "SRN3015BTA-2R2M") (type "KiCad") (uri "${KIPRJMOD}/../LIB_SRN3015BTA-2R2M/KiCad") (options "") (descr ""))
+	(lib (name "logo") (type "KiCad") (uri "${KIPRJMOD}/../logo/KiCad") (options "") (descr ""))
 )
