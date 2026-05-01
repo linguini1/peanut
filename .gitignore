@@ -1,3 +1,9 @@
+# KiCad Artifacts
+
 peanut/peanut-backups/*
 *.lck
 peanut/.history
+
+# Manufacture files
+gerbers/
+gerbers.zip
