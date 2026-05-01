@@ -1594,9 +1594,9 @@
 		)
 		(uuid "42c3c0e3-36b1-4ee4-962b-69dddc98d053")
 	)
-	(text "Vf = 2V\nIf = 6.6mA - 2.42mA"
+	(text "Vf = 2V\nIf = 6.6mA - 2.42mA\nMust be VBAT to show continuity\nwhen < 3V3"
 		(exclude_from_sim no)
-		(at 69.342 88.646 0)
+		(at 68.326 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
