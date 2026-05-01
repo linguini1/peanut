@@ -2510,7 +2510,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10c03649-b732-489e-bdfb-38704d89961e")
 		(property "Reference" "#PWR058"
 			(at 196.85 93.98 0)
@@ -2523,14 +2522,15 @@
 				)
 			)
 		)
-		(property "Value" "VBAT_RAW"
-			(at 196.85 85.09 0)
+		(property "Value" "VPYRO"
+			(at 194.056 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4228,7 +4228,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9504128b-1569-4642-b4ab-c36b2a57a4f6")
 		(property "Reference" "#PWR057"
 			(at 156.21 93.98 0)
@@ -4241,14 +4240,15 @@
 				)
 			)
 		)
-		(property "Value" "VBAT_RAW"
-			(at 156.21 85.09 0)
+		(property "Value" "VPYRO"
+			(at 153.67 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
