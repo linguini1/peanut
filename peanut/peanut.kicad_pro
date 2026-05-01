@@ -83,19 +83,19 @@
           ""
         ],
         [
-          "clearance|145661643|101921769|b8662783-51ab-4029-962f-fb34faefd8c5|458f8d40-f479-4f84-8d8b-73b843b5df15",
+          "clearance|145505334|104233552|a9fd8cde-182a-4690-be0c-fbc945f32792|95ae6fd4-7f9c-444b-81ee-126840d1166d",
           ""
         ],
         [
-          "clearance|145690000|104900000|585334cc-6de3-481a-aa33-f8c25225afd7|b1829f5f-3cfa-4e87-8f7c-0564f6725cf6",
+          "clearance|145731036|105798793|585334cc-6de3-481a-aa33-f8c25225afd7|b1829f5f-3cfa-4e87-8f7c-0564f6725cf6",
+          ""
+        ],
+        [
+          "clearance|145769312|103253434|b8662783-51ab-4029-962f-fb34faefd8c5|458f8d40-f479-4f84-8d8b-73b843b5df15",
           ""
         ],
         [
           "clearance|145785356|98608578|e523c433-d976-4597-825d-aa9fd075a770|64ee904e-2f2d-4309-b80b-a01848e6281c",
-          ""
-        ],
-        [
-          "clearance|145871643|103299930|a9fd8cde-182a-4690-be0c-fbc945f32792|95ae6fd4-7f9c-444b-81ee-126840d1166d",
           ""
         ],
         [
@@ -105,6 +105,26 @@
         [
           "lib_footprint_mismatch|163955000|94785000|2ca6e8d8-832b-42d8-8d0a-d5e3f6f34b9c|00000000-0000-0000-0000-000000000000",
           "Modified to remove silkscreen arrow"
+        ],
+        [
+          "silk_over_copper|163696372|106250000|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|51de0d18-971d-4192-bc35-45ebf55b5c72",
+          ""
+        ],
+        [
+          "silk_over_copper|163696372|89069999|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|c200ffc3-463d-4810-bf46-07529d9e9f9e",
+          ""
+        ],
+        [
+          "silk_over_copper|163696372|92880000|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|b46955fb-2840-461a-8b30-07a06a987194",
+          ""
+        ],
+        [
+          "silk_over_copper|163696372|96690000|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|b5312a23-0a55-4fb6-8e39-ff71dfa11f31",
+          ""
+        ],
+        [
+          "silk_over_copper|163696372|99750000|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|6d3941ff-309d-491e-a1e0-dacdea1e9093",
+          ""
         ],
         [
           "text_height|127000000|91199999|55d12885-ae80-4b39-9de5-dff8a6b2cc8a|00000000-0000-0000-0000-000000000000",
@@ -132,6 +152,10 @@
         ],
         [
           "text_thickness|135622250|88572249|e93994d9-7fdf-4b44-91d8-b40284665e90|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|158303627|85949999|f97ca5ab-b6ee-45d7-834f-c78fb03ba4cd|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -652,7 +676,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.34,
         "tuning_profile": "",
         "via_diameter": 0.65,
         "via_drill": 0.25,

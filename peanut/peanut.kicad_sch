@@ -8126,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 237.49 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10505,7 +10505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 232.1052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11373,7 +11373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 244.8052 45.72 0)
 			(hide yes)
 			(show_name no)
