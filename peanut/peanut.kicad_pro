@@ -87,10 +87,6 @@
           ""
         ],
         [
-          "clearance|145785356|98608578|e523c433-d976-4597-825d-aa9fd075a770|64ee904e-2f2d-4309-b80b-a01848e6281c",
-          ""
-        ],
-        [
           "clearance|145810000|106549999|585334cc-6de3-481a-aa33-f8c25225afd7|b1829f5f-3cfa-4e87-8f7c-0564f6725cf6",
           ""
         ],
@@ -901,7 +897,7 @@
         "uuid": "5c6b6cfc-6c84-425a-9b66-e6111713aae8"
       }
     ],
-    "used_designators": "#PWR59-60,#FLG1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
