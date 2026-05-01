@@ -8,6 +8,7 @@
 
 A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
 
+* Fits in a min-diameter 29mm rocket
 * Barometric pressure sensor (up to 30km)
 * Dual deploy capable (two pyro channels)
 * Visual continuity LEDs
