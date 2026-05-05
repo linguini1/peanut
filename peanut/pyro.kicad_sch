@@ -2522,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Value" "VPYRO"
+		(property "Value" "VBAT_CON"
 			(at 194.056 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Value" "VPYRO"
+		(property "Value" "VBAT_CON"
 			(at 153.67 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)

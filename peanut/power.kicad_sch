@@ -2061,16 +2061,6 @@
 		)
 		(uuid "ea1a32ae-ec39-448b-a234-04df64d05505")
 	)
-	(text "TODO: alternative inductor (cheaper)"
-		(exclude_from_sim no)
-		(at 80.518 51.562 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "442c2999-1619-465d-846c-c753ed4153ff")
-	)
 	(text "4V2 -> 3V2\n0V -> 0V"
 		(exclude_from_sim no)
 		(at 40.894 135.636 0)
@@ -3332,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Value" "VPYRO"
+		(property "Value" "VBAT_CON"
 			(at 260.096 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4890,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a28effb-81c6-4548-b654-065d3298a028")
 		(property "Reference" "#PWR037"
 			(at 184.15 72.39 0)
@@ -4913,14 +4902,15 @@
 				)
 			)
 		)
-		(property "Value" "VBAT_RAW"
-			(at 184.15 63.5 0)
+		(property "Value" "VBAT_CON"
+			(at 179.324 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
