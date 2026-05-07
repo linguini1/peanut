@@ -4569,16 +4569,6 @@
 		)
 		(uuid "9efd3981-d744-4dbc-93bb-9c7f4e958c88")
 	)
-	(text "TODO: series on XTAL_P?"
-		(exclude_from_sim no)
-		(at 68.326 116.586 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a550802d-68e0-4576-8349-6c928f1417f2")
-	)
 	(text "LED boot indicator"
 		(exclude_from_sim no)
 		(at 72.136 61.976 0)
