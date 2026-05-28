@@ -8453,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/2/JELF243C_0015.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/2/JELF243B_9117.pdf"
 			(at 237.49 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8486,7 +8486,7 @@
 				)
 			)
 		)
-		(property "MPN" "LQP03TN2N6B02D"
+		(property "MPN" "LQG15WZ2N6B02D"
 			(at 237.49 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -10832,7 +10832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.1052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10843,7 +10843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/2/GRM0335C1H1R6BA01_01A.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/317/1/Microwave_Caps.pdf"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10865,7 +10865,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM0335C1H1R6BA01D"
+		(property "MPN" "RF15N1R6B500CT"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11700,7 +11700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 244.8052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11711,7 +11711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/3/76/2/GRM0335C1H1R6BA01_01A.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/3/317/1/Microwave_Caps.pdf"
 			(at 243.84 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11733,7 +11733,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM0335C1H1R6BA01D"
+		(property "MPN" "RF15N1R6B500CT"
 			(at 243.84 41.91 0)
 			(hide yes)
 			(show_name no)
