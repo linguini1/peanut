@@ -4093,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "22u"
 			(at 45.212 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4137,7 +4137,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA3E1X5R0J475K080AC"
+		(property "MPN" "MLASJ168BB5226MTNA01"
 			(at 52.07 72.39 0)
 			(hide yes)
 			(show_name no)
