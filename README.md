@@ -59,8 +59,7 @@ PCB stackup and mine.
 **NOTE:** This board was not designed with hand-soldering in mind (aside from
 the backside). My manufacture process is to use solder paste, a stencil and a
 hot plate to do the top-side components. There are 0402 components which are
-manageable with steady hands and tweezers, but the RF matching network is three
-0201 components, which require a lot of patience.
+manageable with steady hands and tweezers.
 
 [nuttx]: https://github.com/apache/nuttx
 [nuttx-apps]: https://github.com/apache/nuttx-apps
