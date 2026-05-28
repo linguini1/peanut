@@ -1,201 +1,266 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+The TAPR Open Hardware License
+Version 1.0 (May 25, 2007)
+Copyright 2007 TAPR - http://www.tapr.org/OHL
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+PREAMBLE
 
-   1. Definitions.
+Open Hardware is a thing - a physical artifact, either electrical or
+mechanical - whose design information is available to, and usable by,
+the public in a way that allows anyone to make, modify, distribute, and
+use that thing.  In this preface, design information is called
+"documentation" and things created from it are called "products."
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+The TAPR Open Hardware License ("OHL") agreement provides a legal
+framework for Open Hardware projects.  It may be used for any kind of
+product, be it a hammer or a computer motherboard, and is TAPR's
+contribution to the community; anyone may use the OHL for their Open
+Hardware project.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Like the GNU General Public License, the OHL is designed to guarantee
+your freedom to share and to create.  It forbids anyone who receives
+rights under the OHL to deny any other licensee those same rights to
+copy, modify, and distribute documentation, and to make, use and
+distribute products based on that documentation.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+Unlike the GPL, the OHL is not primarily a copyright license.  While
+copyright protects documentation from unauthorized copying, modification, 
+and distribution, it has little to do with your right to make, distribute, 
+or use a product based on that documentation.  For better or worse, patents 
+play a significant role in those activities.  Although it does not prohibit 
+anyone from patenting inventions embodied in an Open Hardware design, and 
+of course cannot prevent a third party from enforcing their patent rights, 
+those who benefit from an OHL design may not bring lawsuits claiming that
+design infringes their patents or other intellectual property.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+The OHL addresses unique issues involved in the creation of tangible,
+physical things, but does not cover software, firmware, or code loaded
+into programmable devices.  A copyright-oriented license such as the GPL
+better suits these creations.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+How can you use the OHL, or a design based upon it?  While the terms and
+conditions below take precedence over this preamble, here is a summary:
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+*  You may modify the documentation and make products based upon it.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+*  You may use products for any legal purpose without limitation.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+*  You may distribute unmodified documentation, but you must include the
+complete package as you received it.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+*  You may distribute products you make to third parties, if you either
+include the documentation on which the product is based, or make it
+available without charge for at least three years to anyone who requests
+it.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+*  You may distribute modified documentation or products based on it, if
+you:
+    *  License your modifications under the OHL.
+    *  Include those modifications, following the requirements stated
+       below.
+    *  Attempt to send the modified documentation by email to any of the
+       developers who have provided their email address.  This is a good
+       faith obligation - if the email fails, you need do nothing more
+       and may go on with your distribution.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+*  If you create a design that you want to license under the OHL, you
+should:
+    *  Include this document in a file named LICENSE (with the appropriate
+       extension) that is included in the documentation package.
+    *  If the file format allows, include a notice like "Licensed under
+       the TAPR Open Hardware License (www.tapr.org/OHL)" in each
+       documentation file.  While not required, you should also include
+       this notice on printed circuit board artwork and the product
+       itself; if space is limited the notice can be shortened or
+       abbreviated.
+    *  Include a copyright notice in each file and on printed circuit
+       board artwork.
+    *  If you wish to be notified of modifications that others may make,
+       include your email address in a file named "CONTRIB.TXT" or
+       something similar.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+*  Any time the OHL requires you to make documentation available to
+others, you must include all the materials you received from the
+upstream licensors.  In addition, if you have modified the
+documentation:
+    *  You must identify the modifications in a text file (preferably
+       named "CHANGES.TXT") that you include with the documentation. 
+       That file must also include a statement like "These modifications
+       are licensed under the TAPR Open Hardware License."
+    *  You must include any new files you created, including any
+       manufacturing files (such as Gerber files) you create in the
+       course of making products.
+    *  You must include both "before" and "after" versions of all files
+       you modified.
+    *  You may include files in proprietary formats, but you must also
+       include open format versions (such as Gerber, ASCII, Postscript,
+       or PDF) if your tools can create them.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+TERMS AND CONDITIONS
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+1.   Introduction
+1.1  This Agreement governs how you may use, copy, modify, and
+distribute Documentation, and how you may make, have made, and
+distribute Products based on that Documentation.  As used in this
+Agreement, to "distribute" Documentation means to directly or indirectly
+make copies available to a third party, and to "distribute" Products
+means to directly or indirectly give, loan, sell or otherwise transfer
+them to a third party.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+1.2  "Documentation" includes:
+     (a) schematic diagrams;
+     (b) circuit or circuit board layouts, including Gerber and other
+         data files used for manufacture;
+     (c) mechanical drawings, including CAD, CAM, and other data files
+         used for manufacture;
+     (d) flow charts and descriptive text; and
+     (e) other explanatory material.
+Documentation may be in any tangible or intangible form of expression,
+including but not limited to computer files in open or proprietary
+formats and representations on paper, film, or other media.
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+1.3  "Products" include:
+     (a) circuit boards, mechanical assemblies, and other physical parts
+         and components;
+     (b) assembled or partially assembled units (including components
+         and subassemblies); and
+     (c) parts and components combined into kits intended for assembly
+         by others;
+which are based in whole or in part on the Documentation.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+1.4  This Agreement applies to any Documentation which contains a
+notice stating it is subject to the TAPR Open Hardware License, and to
+all Products based in whole or in part on that Documentation.  If
+Documentation is distributed in an archive (such as a "zip" file) which
+includes this document, all files in that archive are subject to this
+Agreement unless they are specifically excluded.  Each person who
+contributes content to the Documentation is referred to in this
+Agreement as a "Licensor."
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+1.5  By (a) using, copying, modifying, or distributing the
+Documentation, or (b) making or having Products made or distributing
+them, you accept this Agreement, agree to comply with its terms, and
+become a "Licensee."  Any activity inconsistent with this Agreement will
+automatically terminate your rights under it (including the immunities
+from suit granted in Section 2), but the rights of others who have
+received Documentation, or have obtained Products, directly or
+indirectly from you will not be affected so long as they fully comply
+with it themselves.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+1.6  This Agreement does not apply to software, firmware, or code
+loaded into programmable devices which may be used in conjunction with
+Documentation or Products.  Such software is subject to the license
+terms established by its copyright holder(s).
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+2.   Patents
+2.1  Each Licensor grants you, every other Licensee, and every
+possessor or user of Products a perpetual, worldwide, and royalty-free
+immunity from suit under any patent, patent application, or other
+intellectual property right which he or she controls, to the extent
+necessary to make, have made, possess, use, and distribute Products.
+This immunity does not extend to infringement arising from modifications
+subsequently made by others.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+2.2  If you make or have Products made, or distribute Documentation
+that you have modified, you grant every Licensor, every other Licensee,
+and every possessor or user of Products a perpetual, worldwide, and
+royalty-free immunity from suit under any patent, patent application, or
+other intellectual property right which you control, to the extent
+necessary to make, have made, possess, use, and distribute Products.
+This immunity does not extend to infringement arising from modifications
+subsequently made by others.
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+2.3  To avoid doubt, providing Documentation to a third party for the
+sole purpose of having that party make Products on your behalf is not
+considered "distribution,"\" and a third party's act of making Products
+solely on your behalf does not cause that party to grant the immunity
+described in the preceding paragraph.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+2.4  These grants of immunity are a material part of this Agreement,
+and form a portion of the consideration given by each party to the
+other.  If any court judgment or legal agreement prevents you from
+granting the immunity required by this Section, your rights under this
+Agreement will terminate and you may no longer use, copy, modify or
+distribute the Documentation, or make, have made, or distribute
+Products.
 
-   END OF TERMS AND CONDITIONS
+3.   Modifications
+You may modify the Documentation, and those modifications will become
+part of the Documentation.  They are subject to this Agreement, as are
+Products based in whole or in part on them.  If you distribute the
+modified Documentation, or Products based in whole or in part upon it,
+you must email the modified Documentation in a form compliant with
+Section 4 to each Licensor who has provided an email address with the
+Documentation.  Attempting to send the email completes your obligations
+under this Section and you need take no further action if any address
+fails.
 
-   APPENDIX: How to apply the Apache License to your work.
+4.   Distributing Documentation
+4.1  You may distribute unmodified copies of the Documentation in its
+entirety in any medium, provided that you retain all copyright and other
+notices (including references to this Agreement) included by each
+Licensor, and include an unaltered copy of this Agreement.
+4.2  You may distribute modified copies of the Documentation if you
+comply with all the requirements of the preceding paragraph and:
+     (a) include a prominent notice in an ASCII or other open format
+         file identifying those elements of the Documentation that you
+         changed, and stating that the modifications are licensed under
+         the terms of this Agreement;
+     (b) include all new documentation files that you create, as well as
+         both the original and modified versions of each file you change
+         (files may be in your development tool's native file format,
+         but if reasonably possible, you must also include open format,
+         such as Gerber, ASCII, Postscript, or PDF, versions);
+     (c) do not change the terms of this Agreement with respect to
+         subsequent licensees; and
+     (d) if you make or have Products made, include in the Documentation
+         all elements reasonably required to permit others to make
+         Products, including Gerber, CAD/CAM and other files used for
+         manufacture.
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+5.   Making Products
+5.1  You may use the Documentation to make or have Products made,
+provided that each Product retains any notices included by the Licensor
+(including, but not limited to, copyright notices on circuit boards).
+5.2  You may distribute Products you make or have made, provided that
+you include with each unit a copy of the Documentation in a form
+consistent with Section 4.  Alternatively, you may include either (i) an
+offer valid for at least three years to provide that Documentation, at
+no charge other than the reasonable cost of media and postage, to any
+person who requests it; or (ii) a URL where that Documentation may be
+downloaded, available for at least three years after you last distribute
+the Product.
 
-   Copyright 2026 Matteo Golin
+6.   NEW LICENSE VERSIONS
+TAPR may publish updated versions of the OHL which retain the same
+general provisions as the present version, but differ in detail to
+address new problems or concerns, and carry a distinguishing version
+number.  If the Documentation specifies a version number which applies
+to it and "any later version", you may choose either that version or any
+later version published by TAPR.  If the Documentation does not specify
+a version number, you may choose any version ever published by TAPR. 
+TAPR owns the copyright to the OHL, but grants permission to any person
+to copy, distribute, and use it in unmodified form.
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+7.   WARRANTY AND LIABILITY LIMITATIONS
+7.1  THE DOCUMENTATION IS PROVIDED ON AN"AS-IS" BASIS WITHOUT
+WARRANTY OF ANY KIND, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  ALL
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+TITLE, ARE HEREBY EXPRESSLY DISCLAIMED.
+7.2  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL ANY LICENSOR
+BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF
+THE USE OF, OR INABILITY TO USE, THE DOCUMENTATION OR PRODUCTS,
+INCLUDING BUT NOT LIMITED TO CLAIMS OF INTELLECTUAL PROPERTY
+INFRINGEMENT OR LOSS OF DATA, EVEN IF THAT PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+7.3  You agree that the foregoing limitations are reasonable due to
+the non-financial nature of the transaction represented by this
+Agreement, and acknowledge that were it not for these limitations, the
+Licensor(s) would not be willing to make the Documentation available to
+you.
+7.4  You agree to defend, indemnify, and hold each Licensor harmless
+from any claim brought by a third party alleging any defect in the
+design, manufacture, or operation of any Product which you make, have
+made, or distribute pursuant to this Agreement.
+                                 ####
