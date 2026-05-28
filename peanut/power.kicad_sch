@@ -349,184 +349,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1115,14 +937,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LM3670MF"
+		(symbol "Regulator_Linear:TLV75733PDBV"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV75733PDBV"
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1132,19 +967,20 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM3670MF"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 1.27 -6.35 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1152,21 +988,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3670.pdf"
-				(at -6.35 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
+			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1177,7 +1001,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "DC-DC buck converter step down voltage regulator"
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1188,7 +1012,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TSOT?23*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1199,9 +1023,9 @@
 					)
 				)
 			)
-			(symbol "LM3670MF_0_1"
+			(symbol "TLV75733PDBV_0_1"
 				(rectangle
-					(start -5.08 3.81)
+					(start -5.08 4.445)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -1212,11 +1036,11 @@
 					)
 				)
 			)
-			(symbol "LM3670MF_1_1"
+			(symbol "TLV75733PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "Vin"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1267,10 +1091,11 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -2.54 180)
+				(pin no_connect line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "FB"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1285,10 +1110,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "SW"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2102,7 +1927,7 @@
 		)
 		(uuid "7eb49762-f218-407b-ae59-3d9d2d399077")
 	)
-	(text "600mA max draw"
+	(text "1A max draw"
 		(exclude_from_sim no)
 		(at 41.148 90.424 0)
 		(effects
@@ -2257,6 +2082,12 @@
 		(uuid "92c4fb57-520b-4d83-a3d5-64bf1416a944")
 	)
 	(junction
+		(at 59.69 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983e8759-16ce-48e3-a94a-158179a1fef1")
+	)
+	(junction
 		(at 118.11 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2278,25 +2109,13 @@
 		(at 52.07 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebfa8570-035f-4201-a474-3ee08dd4fc55")
+		(uuid "e0181787-9987-4936-b6dc-6e478b7dc21b")
 	)
 	(junction
 		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f93d33a4-4b78-47b5-92a0-671019ba4007")
-	)
-	(junction
-		(at 55.88 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe94bcc1-fe09-4a44-9267-c87b21fa92b7")
-	)
-	(junction
-		(at 81.28 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feb05c9d-59e1-446a-adf5-12d806dfb031")
 	)
 	(wire
 		(pts
@@ -2310,16 +2129,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 83.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021b9676-3b95-4097-9cff-7bfa38d9a9f3")
-	)
-	(wire
-		(pts
 			(xy 83.82 68.58) (xy 86.36 68.58)
 		)
 		(stroke
@@ -2327,16 +2136,6 @@
 			(type default)
 		)
 		(uuid "033428a4-b5e2-4769-a966-80d3fb540105")
-	)
-	(wire
-		(pts
-			(xy 55.88 71.12) (xy 55.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044374f6-cd40-43f5-8cdf-e5f8eb37cce2")
 	)
 	(wire
 		(pts
@@ -2440,6 +2239,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d928b9-8a99-411b-8520-e24821b3f30c")
+	)
+	(wire
+		(pts
 			(xy 53.34 106.68) (xy 52.07 106.68)
 		)
 		(stroke
@@ -2457,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "507d4571-69cd-40b6-9991-143a162f7420")
+	)
+	(wire
+		(pts
+			(xy 52.07 68.58) (xy 59.69 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b9972d-14ad-484e-970c-45ec2b5213fb")
 	)
 	(wire
 		(pts
@@ -2610,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 55.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95cbaa83-a963-40df-9a10-a623e953cff3")
-	)
-	(wire
-		(pts
 			(xy 53.34 107.95) (xy 53.34 106.68)
 		)
 		(stroke
@@ -2650,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 73.66) (xy 81.28 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac811abc-bcbf-4e77-89fd-f19c59b08364")
-	)
-	(wire
-		(pts
 			(xy 260.35 72.39) (xy 255.27 72.39)
 		)
 		(stroke
@@ -2670,13 +2469,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 55.88 71.12)
+			(xy 59.69 68.58) (xy 59.69 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d14be7a4-f2f0-49ac-9e89-6137eaeca334")
+		(uuid "cfab47d3-5322-4c2d-8b82-8ddb18972e0b")
 	)
 	(wire
 		(pts
@@ -2697,16 +2496,6 @@
 			(type default)
 		)
 		(uuid "e010358b-a7f1-4d45-9aef-f51e8f15aafe")
-	)
-	(wire
-		(pts
-			(xy 81.28 73.66) (xy 81.28 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ea101c-f4cc-46df-816d-ab1bf0d0595a")
 	)
 	(wire
 		(pts
@@ -2747,16 +2536,6 @@
 			(type default)
 		)
 		(uuid "ff5caa77-413c-465d-806a-068e01017eda")
-	)
-	(wire
-		(pts
-			(xy 55.88 68.58) (xy 58.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fff71169-4300-4864-8cbe-a6615cff14c0")
 	)
 	(label "REG_IN"
 		(at 158.75 71.12 180)
@@ -2983,6 +2762,96 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75733PDBV")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "142e6984-ad87-4401-9991-a01144ca5253")
+		(property "Reference" "U4"
+			(at 67.31 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBVR"
+			(at 67.31 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 67.31 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+			(at 67.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 67.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2d66d1e1-9834-4d40-9826-3c93c98d0690")
+		)
+		(pin "4"
+			(uuid "c8514aae-4a61-4943-aee6-c9cebb72cb9f")
+		)
+		(pin "3"
+			(uuid "5b4c15b9-b740-400d-824e-ef987d03d464")
+		)
+		(pin "2"
+			(uuid "5334b5f5-656a-47fc-8aca-04e5600561bb")
+		)
+		(pin "1"
+			(uuid "6cffd446-52ec-4b51-8961-007d682dab7f")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4041,97 +3910,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 77.47 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48356866-02f1-4aa3-bd95-023074bef7ec")
-		(property "Reference" "L3"
-			(at 77.47 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2"
-			(at 77.47 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SRN3015BTA-2R2M:SRN3015BTA2R2M"
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_08042023_SRN3015BTA_datasheet.pdf"
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 77.47 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SRN3015BTA-2R2M"
-			(at 77.47 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f92824a8-58a1-4713-914f-22017be7dfd9")
-		)
-		(pin "1"
-			(uuid "ff486493-3dee-461d-9fd7-75ec3f7aeab8")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5615,107 +5393,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LM3670MF")
-		(at 66.04 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aea2d3b1-f587-4c37-8c3e-23464b171501")
-		(property "Reference" "U4"
-			(at 66.04 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM3671MF"
-			(at 66.04 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 67.31 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lm3671"
-			(at 59.69 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
-			(at 66.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LM3671MFX-3.3/NOPB"
-			(at 66.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3810f733-3501-4942-8007-5b230af93b8d")
-		)
-		(pin "5"
-			(uuid "85a06763-ef13-4c4a-b630-bd13f9c700cf")
-		)
-		(pin "3"
-			(uuid "4e06af8d-192c-4d2b-87c9-b0cad947202c")
-		)
-		(pin "4"
-			(uuid "be08add4-a3e0-4ad8-a483-c993f76f8709")
-		)
-		(pin "2"
-			(uuid "bb059648-f7c6-492b-953b-4737a2ecb726")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 125.73 0)
 		(unit 1)
@@ -5873,7 +5550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 78.74 0)
+		(at 67.31 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5884,7 +5561,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9e694d6-62b7-44b7-b3f7-34705a597e51")
 		(property "Reference" "#PWR042"
-			(at 66.04 85.09 0)
+			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +5572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 83.82 0)
+			(at 67.31 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5905,7 +5582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 78.74 0)
+			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 78.74 0)
+			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5927,7 +5604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 78.74 0)
+			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
