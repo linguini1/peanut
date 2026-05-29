@@ -9,7 +9,7 @@
 A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
 
 * Fits in a min-diameter 29mm rocket
-* Barometric pressure sensor (up to 30km)
+* High accuracy barometric pressure sensor (up to ~9km)
 * Dual deploy capable (two pyro channels)
 * Visual continuity LEDs
 * On-board 1MB storage
@@ -51,7 +51,7 @@ WiFi instead? You can program whatever you want into it.
 ## Make Your Own
 
 If you want to make your own Peanut Altimeter, the component cost for the board
-is roughly $45 CAD. You can get PCB blanks from a manufacturer of your choice
+is roughly $30 CAD. You can get PCB blanks from a manufacturer of your choice
 (JLCPCB/PCBWay). You should only need to verify the trace widths of the
 Bluetooth RF trace depending on the differences between your manufacturer's
 PCB stackup and mine.
