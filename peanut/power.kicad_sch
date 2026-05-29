@@ -4302,7 +4302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 121.92 0)
 			(hide yes)
 			(show_name no)
