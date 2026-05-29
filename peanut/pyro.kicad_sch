@@ -2321,7 +2321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03def4fb-9eae-40d0-9c60-0362796858c3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 196.85 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2381,7 +2381,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2584,7 +2584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10c03649-b732-489e-bdfb-38704d89961e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2645,7 +2645,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2971,7 +2971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1e62b7-ffab-4d4d-8175-ce4db3c30437")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 156.21 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3031,7 +3031,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3142,7 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a478e41-3df8-41b8-8004-359a436bd581")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -3202,7 +3202,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2537e2-2e71-41c3-a222-af8e3ec136eb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 85.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -3379,7 +3379,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8565363a-b1e3-4e89-b176-1b7877968c48")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 88.9 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3457,7 +3457,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3837,7 +3837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c66ecd-31f4-4f56-9ee5-7389eae284ef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 52.07 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3897,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9504128b-1569-4642-b4ab-c36b2a57a4f6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 156.21 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4177,7 +4177,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3afeb29-187e-4016-b5cf-ad178a434b76")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 50.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4348,7 +4348,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9895ab8-2fee-4697-96a4-938f6697016f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +4426,7 @@
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/4be069cc-6620-4cc3-a173-eaa174b1ef03"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
