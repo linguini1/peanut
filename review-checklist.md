@@ -25,6 +25,7 @@ for order.
   - [ ] Regulator
   - [ ] Power MUX
 - [ ] Connections to FETs are correct
+- [ ] Battery leads have right polarity
 
 ## Component Ratings
 
