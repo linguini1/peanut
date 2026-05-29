@@ -2025,7 +2025,7 @@
 		)
 		(uuid "49c6973d-7796-4a51-9c8a-573f99aa8801")
 	)
-	(text "Switching regulator"
+	(text "LDO regulator"
 		(exclude_from_sim no)
 		(at 66.802 57.404 0)
 		(effects
@@ -2196,12 +2196,6 @@
 		(uuid "43dfcc44-566a-426c-8091-a5471e528df6")
 	)
 	(junction
-		(at 83.82 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ebab370-ca8c-4cdf-8a77-373b7cadd101")
-	)
-	(junction
 		(at 110.49 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2218,6 +2212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72cc929c-d902-44dc-afc0-57a7a82e8137")
+	)
+	(junction
+		(at 195.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75e6015f-ce17-4c13-9579-8d26c85382b2")
 	)
 	(junction
 		(at 67.31 76.2)
@@ -2270,16 +2270,6 @@
 			(type default)
 		)
 		(uuid "01ced0f6-0db4-4b01-92c8-f202410592d8")
-	)
-	(wire
-		(pts
-			(xy 83.82 68.58) (xy 86.36 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033428a4-b5e2-4769-a966-80d3fb540105")
 	)
 	(wire
 		(pts
@@ -2423,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 68.58) (xy 83.82 68.58)
+			(xy 74.93 68.58) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3708,6 +3698,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 195.58 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e72c99-a677-4b05-9840-32c05f758b66")
+		(property "Reference" "#FLG02"
+			(at 195.58 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 195.58 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 195.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aa791f3-916a-4d69-b0b8-d3b843dff62a")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 105.41 80.01 0)
 		(unit 1)
@@ -3779,85 +3847,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 83.82 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "465d0b43-d9ee-498f-a59d-fe232bb58f8b")
-		(property "Reference" "#FLG02"
-			(at 83.82 66.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 83.82 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5eb3b85-d898-409b-aeec-3e16f8e996cf")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.062 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -5222,7 +5211,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AED104X"
+		(property "MPN" "ERA-3AED104V"
 			(at 116.84 130.81 0)
 			(hide yes)
 			(show_name no)
