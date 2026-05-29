@@ -87,6 +87,14 @@
           "Modified to remove silkscreen arrow"
         ],
         [
+          "lib_footprint_mismatch|139650000|105899999|389347e4-c8b2-4b36-8c21-d9e9ded365d7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|153772500|106949999|09d0e922-4d3e-467a-b1a1-cb3105c29507|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|163955000|94785000|2ca6e8d8-832b-42d8-8d0a-d5e3f6f34b9c|00000000-0000-0000-0000-000000000000",
           "Modified to remove silkscreen arrow"
         ],
@@ -830,6 +838,36 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
           "show": false
         }
       ],
