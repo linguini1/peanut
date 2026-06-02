@@ -4820,7 +4820,7 @@
 		)
 		(uuid "d0e6268e-826b-42e1-8fea-915d14430bbd")
 	)
-	(text "C_S = 4n"
+	(text "C_S = 4p"
 		(exclude_from_sim no)
 		(at 242.316 126.746 0)
 		(effects
@@ -9743,6 +9743,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "MPN" "BMP581"
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"

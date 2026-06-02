@@ -1980,7 +1980,7 @@
 	)
 	(rectangle
 		(start 177.8 59.69)
-		(end 205.74 77.47)
+		(end 207.01 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -2184,6 +2184,12 @@
 		(uuid "0e7af527-0eda-44f3-9979-bbe6334da054")
 	)
 	(junction
+		(at 195.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffc9df0-7d93-4e03-ad68-0c2620f6230b")
+	)
+	(junction
 		(at 123.19 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2214,12 +2220,6 @@
 		(uuid "72cc929c-d902-44dc-afc0-57a7a82e8137")
 	)
 	(junction
-		(at 195.58 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75e6015f-ce17-4c13-9579-8d26c85382b2")
-	)
-	(junction
 		(at 67.31 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2247,7 +2247,7 @@
 		(at 196.85 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d63df334-f4d3-4192-a1d7-1235dbcfe5a6")
+		(uuid "d8b7751f-6c80-4bd2-a20b-0dc9fb97f81c")
 	)
 	(junction
 		(at 52.07 68.58)
@@ -2573,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 195.58 69.85)
+			(xy 195.58 69.85) (xy 201.93 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3854,7 +3854,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 199.39 67.31 0)
+		(at 201.93 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3863,9 +3863,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4edef003-219d-4e71-9061-8ec0114a3f27")
+		(uuid "4057b506-ee3a-4345-ae65-0bee2c4a56e8")
 		(property "Reference" "#PWR059"
-			(at 199.39 71.12 0)
+			(at 201.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3876,85 @@
 			)
 		)
 		(property "Value" "VBAT_RAW"
-			(at 199.39 62.23 0)
+			(at 201.93 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 201.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f0e1e09-7430-4076-9db7-914eff847df3")
+		)
+		(instances
+			(project "peanut"
+				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fc29490-43cc-427b-b7db-02edfab807ce")
+		(property "Reference" "#PWR058"
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3907,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 199.39 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3919,12 +3997,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f58a4056-c33c-44f4-b579-feea4545b612")
+			(uuid "1990e47c-e438-40bb-b53f-027489188729")
 		)
 		(instances
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4543,84 +4621,6 @@
 			(project "peanut"
 				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "834de81e-0691-4911-b1ac-94e49790159a")
-		(property "Reference" "#PWR058"
-			(at 198.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc1bf944-9ebf-43a8-835d-ca5385d78be3")
-		)
-		(instances
-			(project "peanut"
-				(path "/5c6b6cfc-6c84-425a-9b66-e6111713aae8/f944ce75-1da7-4030-9ed2-502ac98b17ed"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
