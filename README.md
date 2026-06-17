@@ -34,7 +34,7 @@ Firmware is spread across a few repositories. If you are compiling yourself,
 you'll need:
 - [The NuttX kernel source][nuttx]
 - [The NuttX application library][nuttx-apps]
-- The Peanut board support package (coming soon)
+- [The Peanut board support package][peanut-bsp]
 - [My application-level altimeter software][rocket-altimeter]
 
 ## Hackability
@@ -65,3 +65,4 @@ manageable with steady hands and tweezers.
 [nuttx-apps]: https://github.com/apache/nuttx-apps
 [nuttx-site]: https://nuttx.apache.org/
 [rocket-altimeter]: https://github.com/linguini1/rocket-altimeter
+[peanut-bsp]: https://github.com/linguini1/peanut-bsp
