@@ -1,9 +1,21 @@
 # Peanut
 
 <p align="center">
+    <img style="align:center" width="70%" src="./docs/assets/fingers-for-scale.jpg" />
+    <br/>
+    Peanut Altimeter with my fingers for scale
+</p>
+
+<p align="center">
+    <img style="align:center" width="70%" src="./docs/assets/usb-for-scale.jpg" />
+    <br/>
+    Peanut Altimeter powered up and operational
+</p>
+
+<p align="center">
     <img style="align:center" width="70%" src="./docs/assets/peanut_render.png" />
     <br/>
-    Peanut Altimeter
+    Peanut Altimeter KiCAD render
 </p>
 
 A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
@@ -23,6 +35,9 @@ A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
   * Configuration over BLE
   * Continuity & other telemetry over BLE
 * WiFi capable
+
+**Thank you to [PCBWay][pcbway] for sponsoring the manufacture of this project's
+PCBs!**
 
 ## Firmware
 
@@ -66,3 +81,4 @@ manageable with steady hands and tweezers.
 [nuttx-site]: https://nuttx.apache.org/
 [rocket-altimeter]: https://github.com/linguini1/rocket-altimeter
 [peanut-bsp]: https://github.com/linguini1/peanut-bsp
+[pcbway]: https://www.pcbway.com/
