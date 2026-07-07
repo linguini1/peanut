@@ -3,6 +3,7 @@
 peanut/peanut-backups/*
 *.lck
 peanut/.history
+peanut/bom
 
 # Manufacture files
 gerbers/
