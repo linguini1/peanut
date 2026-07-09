@@ -76,6 +76,17 @@ the backside). My manufacture process is to use solder paste, a stencil and a
 hot plate to do the top-side components. There are 0402 components which are
 manageable with steady hands and tweezers.
 
+## On PCBWay
+
+My experience using PCBWay could not have been easier. They provide a plugin for
+KiCAD that directly exports your manufacturing files for order to their web
+quote interface. I only hand to click the button and choose some parameters for
+my board to get everything ordered.
+
+My designs arrived on time, well package and the stencil was really high quality
+with a large aluminum frame. I had no issues with the fine details (in copper
+and on silkscreen) with such a small board, PCBWay nailed it.
+
 [nuttx]: https://github.com/apache/nuttx
 [nuttx-apps]: https://github.com/apache/nuttx-apps
 [nuttx-site]: https://nuttx.apache.org/
