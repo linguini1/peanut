@@ -67,7 +67,7 @@ WiFi instead? You can program whatever you want into it.
 
 If you want to make your own Peanut Altimeter, the component cost for the board
 is roughly $30 CAD. You can get PCB blanks from a manufacturer of your choice
-(JLCPCB/PCBWay). You should only need to verify the trace widths of the
+(i.e. PCBWay). You should only need to verify the trace widths of the
 Bluetooth RF trace depending on the differences between your manufacturer's
 PCB stackup and mine.
 
