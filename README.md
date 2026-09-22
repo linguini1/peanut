@@ -63,6 +63,12 @@ play custom audio? Want to change the meaning of the "START" LED? Want to add
 more features to the Bluetooth interface, or make the altimeter operate over
 WiFi instead? You can program whatever you want into it.
 
+## Physical Integration
+
+If you'd like to fly Peanut, take a look at [the 3D models](./models) so you can
+design your av-bay in CAD. This directory also contains the key dimensions of
+Peanut for size and mounting holes.
+
 ## Make Your Own
 
 If you want to make your own Peanut Altimeter, the component cost for the board
