@@ -52,6 +52,11 @@ A modern, tiny, and hackable altimeter for hobby rocketry.
 
 [Take a look at Peanut's layout and electrical schematics here.][kicad-view]
 
+Peanut is also the subject of one of my [2026 Apache Community over
+Code conference presentations][coc-alt-pres]. I discuss the process of designing
+an altimeter with NuttX in mind, as well as what considerations go into robust
+firmware design.
+
 **Thank you to [PCBWay][pcbway] for sponsoring the manufacture of this project's
 PCBs!**
 
@@ -129,3 +134,4 @@ and on silkscreen) with such a small board, PCBWay nailed it.
 [peanut-bsp]: https://github.com/linguini1/peanut-bsp
 [pcbway]: https://www.pcbway.com/
 [kicad-view]: https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flinguini1%2Fpeanut%2Ftree%2Fmain%2Fpeanut
+[coc-alt-pres]: https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?session=b94e377f-e18d-4d64-92bf-246464bb62e4&shareLink=true
