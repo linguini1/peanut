@@ -1,5 +1,7 @@
 # Peanut
 
+A modern, tiny, and hackable altimeter for hobby rocketry.
+
 <p align="center">
     <img style="align:center" width="70%" src="./docs/assets/fingers-for-scale.jpg" />
     <br/>
@@ -18,23 +20,35 @@
     Peanut Altimeter KiCAD render
 </p>
 
-A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
+**Features include:**
 
 * Fits in a min-diameter 29mm rocket
 * High accuracy barometric pressure sensor (up to ~9km)
-* Dual deploy capable (two pyro channels)
-* Visual continuity LEDs
+* Dual deploy capable (two pyro channels, >1A each)
+* Continuity LED indicators for each pyro channel
+* Battery reverse polarity protection
 * On-board 2MB storage (4MB, 2MB for program, 2MB for logs)
   * Altitude measurements
   * Flight events (ascent, apogee, landing, etc.)
   * Deployment events
 * Mach dip filtering (works on flights that break Mach)
-* Audio arming indicator
+* Buzzer arming indicator
 * Bluetooth connection
-  * Deployment testing with flight simulations over BLE
-  * Configuration over BLE
+  * Deployment ground testing with flight simulations over BLE
+  * Wireless configuration
+  * Battery life monitoring
+  * Arming verification
   * Continuity & other telemetry over BLE
 * WiFi capable
+
+**Tech specs:**
+
+* ESP32C3 MCU (4MB flash, 40KB RAM)
+* BMP581 barometer
+  * Configured with interrupt line for measurements
+  * I2C operated
+* Piezo buzzer with GPIO control
+* ACAG0201-2450-T 2.4GHz PCB antenna
 
 [Take a look at Peanut's layout and electrical schematics here.][kicad-view]
 
@@ -51,19 +65,26 @@ Firmware is spread across a few repositories. If you are compiling yourself,
 you'll need:
 - [The NuttX kernel source][nuttx]
 - [The NuttX application library][nuttx-apps]
-- [The Peanut board support package][peanut-bsp]
-- [My application-level altimeter software][rocket-altimeter]
+- [The Peanut board support package (BSP)][peanut-bsp]
+- [My application-level altimeter software,
+  `rocket-altimeter`][rocket-altimeter]
+
+Instructions for how to configure, compile and flash firmware can be found in
+the [Peanut BSP][peanut-bsp] and [`rocket-altimeter`][rocket-altimeter]
+repositories. Pre-built firmware binaries are made available with each release
+under the [Peanut BSP][peanut-bsp] repository.
 
 ## Hackability
 
 All hardware designs & firmware for Peanut are open-sourced and available under
 permissive licensing.
 
-The device itself is programmable over the USB-C interface, so users can tweak
-the firmware or write their own and re-program the device. Want the buzzer to
-play custom audio? Want to change the meaning of the "START" LED? Want to add
-more features to the Bluetooth interface, or make the altimeter operate over
-WiFi instead? You can program whatever you want into it.
+The device itself is programmable over the USB-C interface using Espressif's
+`esptool`, so users can tweak the firmware or write their own and easily
+re-program the device. Want the buzzer to play custom audio? Want to change the
+meaning of the "START" LED? Want to add more features to the Bluetooth
+interface, or make the altimeter operate over WiFi instead? You can program
+whatever you want into it!
 
 ## Physical Integration
 
@@ -71,10 +92,16 @@ If you'd like to fly Peanut, take a look at [the 3D models](./models) so you can
 design your av-bay in CAD. This directory also contains the key dimensions of
 Peanut for size and mounting holes.
 
+**NOTE:** A user manual for Peanut is coming soon! For now, be aware that Peanut
+is only rated for 4V2 LiPo/Li-ion batteries (3V7 nominal). You should only use
+batteries _without overcurrent protection_ if you are flying Peanut for
+deployment purposes. Otherwise, pyro channels may not be able to draw sufficient
+current when fired.
+
 ## Make Your Own
 
 If you want to make your own Peanut Altimeter, the component cost for the board
-is roughly $30 CAD. You can get PCB blanks from a manufacturer of your choice
+is roughly $35 CAD. You can get PCB blanks from a manufacturer of your choice
 (i.e. PCBWay). You should only need to verify the trace widths of the
 Bluetooth RF trace depending on the differences between your manufacturer's
 PCB stackup and mine.
