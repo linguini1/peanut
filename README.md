@@ -36,6 +36,8 @@ A modern, tiny, and hackable altimeter for hobby rocketry. Features include:
   * Continuity & other telemetry over BLE
 * WiFi capable
 
+[Take a look at Peanut's layout and electrical schematics here.][kicad-view]
+
 **Thank you to [PCBWay][pcbway] for sponsoring the manufacture of this project's
 PCBs!**
 
@@ -99,3 +101,4 @@ and on silkscreen) with such a small board, PCBWay nailed it.
 [rocket-altimeter]: https://github.com/linguini1/rocket-altimeter
 [peanut-bsp]: https://github.com/linguini1/peanut-bsp
 [pcbway]: https://www.pcbway.com/
+[kicad-view]: https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flinguini1%2Fpeanut%2Ftree%2Fmain%2Fpeanut
