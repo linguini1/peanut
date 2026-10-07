@@ -1,6 +1,9 @@
-# Peanut
+# Peanut <img width="20%" src="./docs/assets/certification-mark-CA000081-wide.svg">
 
 A modern, tiny, and hackable altimeter for hobby rocketry.
+
+[Peanut is certified as open-source hardware by the Open Source Hardware
+Association (CA000081).][oshw-cert]
 
 <p align="center">
     <img style="align:center" width="70%" src="./docs/assets/fingers-for-scale.jpg" />
@@ -135,3 +138,4 @@ and on silkscreen) with such a small board, PCBWay nailed it.
 [pcbway]: https://www.pcbway.com/
 [kicad-view]: https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flinguini1%2Fpeanut%2Ftree%2Fmain%2Fpeanut
 [coc-alt-pres]: https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/summary?session=b94e377f-e18d-4d64-92bf-246464bb62e4&shareLink=true
+[oshw-cert]: https://certification.oshwa.org/ca000081.html
